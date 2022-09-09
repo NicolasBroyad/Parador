@@ -55,12 +55,12 @@ p {
 
 #inscripcion {
     height: 27px;
+    width: 27px;
     position: absolute;
     top: 15px;
     right: 80px;
 
 }
-
 
 #home {
     height: 30px;
@@ -68,17 +68,6 @@ p {
     top: 12px;
     right: 22px;
 
-}
-
-#footer1 {
-    padding: 10px;
-    color: white;
-    background-color: midnightblue;
-    height: 250px;
-}
-
-.redes {
-       font-size: 20px;
 }
 
 input {
@@ -90,13 +79,10 @@ span {
     margin-left: 10px;
 }
 
-#crear_equipo {
-    position: absolute;
-    left: 80px;
-    top: 800px;
-    border-radius: 40px; 
-    height: 40px;
-    width: 120px;
+#crear_equipo{
+    position: relative;
+    top: 50px;
+    left: -140px;
 }
 
 iframe {
@@ -123,14 +109,14 @@ iframe {
     padding: 10px;
 }
 
-#footer2 {
+#footer {
     background-color: black;
     height: 300px;
     color: white;   
     padding: 10px;
 }
 
-.redes2 {
+.redes {
     max-width: 20px;
     max-height: 15px; 
 }
