@@ -1,0 +1,50 @@
+#titulo {
+    color: wheat;
+    text-align: center;
+    font-style: oblique;
+    background-color: black;
+}
+
+#fondo {
+    background-color: white;
+}
+
+#subtitulo {
+    padding: 10px;
+}
+
+#pie_de_pagina {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.redes2 {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px ;
+}
+
+#porcentaje {
+    padding: 10px;
+}
+
+#cuadro {
+    position: relative;
+    top: 10px;
+}
+
+#pantalla {
+    background-color: lightgreen;
+}
+
+.directorio {
+   margin: 5px;
+   float: right;
+   width: 250px;
+   max-width: 30px;
+}
