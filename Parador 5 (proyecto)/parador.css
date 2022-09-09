@@ -79,10 +79,17 @@ span {
     margin-left: 10px;
 }
 
-#crear_equipo{
+.crear_equipo{
     position: relative;
     top: 50px;
     left: -140px;
+}
+
+img.crear_equipo {
+    height: 50px;
+    position: relative;
+    left: -80px;
+    top: 70px;
 }
 
 iframe {
