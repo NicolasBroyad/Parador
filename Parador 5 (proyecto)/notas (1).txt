@@ -253,3 +253,51 @@ function cicloF(ini,fin){
     }
     //print("i vale"+i)
 }
+
+
+        ARRAYS
+array -> Es el equivalente a la lista en python
+Asi se inicializa un array:
+function cargarLista(){
+    lst=[1,2,3,4,5]
+    return lst
+}
+
+x = cargarLista() (se carga la lista en la variable x)
+
+x.push(num) --> Agrega al final
+x.unshift(num) --> Agrega al principio
+x.slice(num1,num2) --> Para hacer Slicing
+x.pop --> Elimina del final
+x.shift --> Elimina del principio
+
+
+    OBJETOS
+objetos - Similares a diccionarios de python
+
+function cargarObjetos(){
+    obj = {
+        nom: "Nicolas Broyad",
+        id: 422421,
+        aprobado: true,
+        notas: ["A","A","B","D","C"]
+        prom: 6.44
+    }
+    return obj 
+}
+
+object.keys(obj) --> Para obtener claves
+object.values(obj) --> Para obtener los valores
+obj(clave)=valor --> Para agregar una nueva clave con un valor 
+delete obj["clave"] --> Para eliminar una clave
+
+FUNCION PARA ORDENAR ARRAYS (Por parametro para el "sort" o "reverse")
+function comparacion(a,b){
+    if(a > b)
+        res=1;
+    else if (a < b)
+        res= -1;
+    else 
+        res=0;
+    return res
+};

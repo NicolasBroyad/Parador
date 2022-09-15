@@ -44,13 +44,42 @@ body {
     
 }
 
-h2 { 
+h2 {
+    text-align: center; 
     padding: 10px;
 }
 
 p {
     padding: 10px;
     font-style: italic;
+}
+
+.cajas {
+    background-color: rgb(39, 39, 39);
+    height: 300px;
+    width: 300px;
+}
+
+#fm5 {
+    position:absolute;
+    left: 200px;
+}
+
+#fm8 {
+    position: absolute;
+    right: 200px;
+}
+
+#ff5{
+    position: absolute;
+    left: 200px;
+    top: 900px;
+}
+
+#ff8 {
+    position: absolute;
+    right: 200px;
+    top: 900px;
 }
 
 #inscripcion {
