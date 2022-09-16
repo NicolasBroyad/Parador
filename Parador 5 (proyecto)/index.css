@@ -76,6 +76,7 @@ p {
 }
 
 .cajas {
+    display: inline;
     background-color: rgb(39, 39, 39);
     height: 400px;
     width: 400px;
