@@ -38,28 +38,19 @@ h1 {
 }
 
 #undernav {
-    height: 450px;
+    height: 950px;
     background-color: rgb(39, 39, 39);
 }
 
-#f5 {
-    height: 400px;
-    position: absolute;
-    left: 70px;
-    z-index: 0;
-}
-
-iframe {
-    height: 400px;
-    width: 520px;
-    position: absolute;
-    right: 70px;
+#principal {
+    height: 100%;
+    width: 100%;
 }
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
 #body {
-    height: 1400px;
+    height: 2000px;
     background-color: wheat;
     color: rgb(39, 39, 39);
 }
@@ -134,22 +125,7 @@ img.crear_equipo {
     top: 70px;
 }
 
-/*****************************************************************/
-
-#titulo {
-    color: wheat;
-    text-align: center;
-    font-style: oblique;
-    background-color: black;
-}
-
-#fondo {
-    background-color: white;
-}
-
-#subtitulo {
-    padding: 10px;
-}
+/*------------------------FOOTER-----------------------------------------*/
 
 #footer {
     background-color: black;
@@ -166,24 +142,4 @@ img.crear_equipo {
 #saul {
     max-width: 40px;
     max-height: 40px;
-}
-
-#porcentaje {
-    padding: 10px;
-}
-
-#cuadro {
-    position: relative;
-    top: 10px;
-}
-
-#pantalla {
-    background-color: lightgreen;
-}
-
-.directorio {
-   margin: 5px;
-   float: right;
-   width: 250px;
-   max-width: 30px;
 }

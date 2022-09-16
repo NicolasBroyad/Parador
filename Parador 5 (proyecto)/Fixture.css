@@ -1,6 +1,7 @@
 * {
     margin: 0;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -8,6 +9,48 @@ header {
     height: 60px;
     z-index: 1;
 }
+
+h1 {
+    text-align: center;
+    position: relative;
+    padding: 8px;
+    color: wheat;
+    font-style: italic;
+}
+
+#inscripcion {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+
+}
+
+#home { 
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 22px;
+
+}
+
+#undernav {
+    height: 950px;
+    background-color: rgb(39, 39, 39);
+}
+
+#principal {
+    height: 100%;
+    width: 100%;
+}
+
+#body {
+    height: 2000px;
+    background-color: wheat;
+    color: rgb(39, 39, 39);
+}
+
 body {
     background-position: center center;
     background-repeat: no-repeat;
