@@ -1,0 +1,303 @@
+En html se marca la informacion de texto a traves de etiquetas.
+Las etiquetas no son informacion visual.
+Las etiquetas suelen ir de punta a punta de la pagina y por ende la siguiente etiqutea suele ir abajo.
+
+-SPAN NO ocupa todo el espacio, solo ocupa el tamaño de su contenido.
+-DIV agrupa otras etiquetas que van adentro suyo.
+-Con IMG src="..." ,el navegador hace una peticion para que se busque esa imagen en internet. Si se utiliza
+un archivo local, solo sirve para uso personal, pero no estaria siendo un sistema cliente servidor.
+
+Atributo
+
+Lista y tabla
+
+LISTA
+<ul> (Agrupa elemetos lista)
+    <li> Nicolas </li>
+        <ul> (sublista)
+            <li> DNI </li>
+            <li> TELEFONO </li> 
+        </ul>
+    <li> Broyad </li>
+</ul>
+La LISTA se usa para darle orden jerarquico a la informacion (una cosa adentro de otra).
+Se las suele usar para los menus, que al entrar a una opcion se abren otras.
+
+TABLA
+<table>
+    <thead> (Para la columna que es la cabecera de la tabla)
+        <tr> (Aca adentro va la columna)
+            <th> </th> (Cada casilla)
+            <th> </th>
+            <th> </th>
+        </tr>
+    </thead>
+
+    <tbody> (Columnas del body de la tabla)
+        <tb> 
+
+        </tb>
+    </tbody>
+</table>
+
+FORMULARIO
+
+<form> 
+    <input type="text/password/email/date/file/" >
+    <select name="..."> 
+    (EL name es importante y toma el valor dela opcion elegida, es lo que se envia al servidor.
+    Es como un diccionario, cuya clave es el id del input y su contendio es lo que se le ingresa)
+        <option> </option>
+        <option> </option>
+    </select>
+    TODOS LOS INPUT DEBEN TENER UN NAME. 
+    A veces cuando es un input con opciones para elegir, 
+    entre las que solo se debe poder elegir una, se les pone a todas el mismo name para que se agrupen,
+    es decir, que al marcar una, se desmarcaria la otra si estuviese marcada y solo podria haber una marcada
+    a la vez.
+
+    El boton submit es el que hace que se mande todo el formulario al servidor.
+
+<br> completa la linea
+
+ID
+Es un atributo unico, NO se repite. 
+
+CLASS
+Puede haber mas de uno en una misma etiqueta incluso. Agrupa por tipos. Los espacios entre el texto lo toma
+como distintas clases para que una misma etiqueta esté en mas de una clase.
+Ejemplo:
+    <p class = "rojo titulo"> 
+    </p>
+
+    
+
+
+                        CSS
+ESTRUCTURA CSS
+
+selector {propiedad:valor}
+Ejemplo: h1 {color:blue}
+
+En el selector -> 
+                "." es para seleccionar una clase 
+                Ej: .redes {
+
+                }
+
+                "#" es para seleccionar un ID
+                Ej: #nombre {
+                    
+                }
+
+Se pueden escribir todos los que quieras, uno abajo de otro.
+
+RELACIONAR ARCHIVO DE ESTILO CON ARCHIVO html
+
+Se escribe en el archivo html --> <link rel="stylesheet" href="nombre_del_archivo.css">
+
+Cuando se escribe una sola propiedad para el selector, no es necesario terminar con ";", cuando son mas, si.
+
+PARA COMENTAR EN CSS --> /* comentario */
+
+MOVIMIENTO DE CAJAS
+Todos los elementos ocupan cajas (todas las etiquetas).
+La mayoria tienen una caja que ocupa toda la linea.
+El navegador busca poner una caja al lado de otra si es que entran, y si no entran
+la pone abajo.
+
+Cada caja tiene estos elementos --> margin, border, padding, content
+    padding: Es el espacio que hay entre el borde de la caja y su contenido.
+
+* {
+    borde-radius: (num)px;  para el tamaño del borde
+}
+
+position: static(por defecto);
+
+position: relative; 
+Para moverla los px que quieras con respecto a si estuviera static.
+
+position: fixed;
+
+position: absolute;
+Se posiciona en relacion a la ultima cosa en la que esta contenida.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+            JAVA SCRIPT
+
+a=5; (Asignacion de variable)
+El ";" separa entre sentencias, puede haber mas de una en una misma linea
+Ej:
+
+a=5;b=4; (se asignan ambas variables)
+
+Para realacionar archivo html con un codigo JS:
+Se usa etiqueta (en el head) "<script language="javascript" type="text/javascript" src="nombre_de_archivo.js">
+
+PARA COMENTAR
+// comentario en una linea
+
+/*
+    comentario 
+    en
+    varias
+    lineas
+*/
+
+Se puede usar "var" para asignar variable 
+Ej:
+    var x; (Se asignala variable "x" SIN tener que AGREGARLE CONTENIDO)
+
+y se puede usar siempre
+    var x=5;
+    var y=10;
+Pero cuando se le da un valor a la variable, el "var" NO es necesario
+
+CREAR UNA FUNCION
+function print (txt,end="<br>"){
+    document.body.innerHTML+=txt+end;
+}
+
+function input(cad){
+    var res= prompt(cad);
+    return res;
+}
+
+
+TIPOS DE DATOS
+texto -> string
+numero INT en python, se llama "number"
+numero FLOAT en python, se llama "number" tambeien
+logico -> boolean
+no definido -> undefined
+None similar a -> null (no es exactamente lo mismo)
+
+const CONSTANTE = 123; (una variable que no varia, desde que es asignada NO SE MODIFICA)
+si se trata de asignar otro valor a la misma variable, da ERROR.
+
+se puede seleccionar un solo caracter de un string en una posicion determinada.
+Ej: 
+    nombre = "Nicolas"
+    nombre[2] --> "c"
+
+Slicing se puede hacer solo con txt.slice(x,y)
+Ej: 
+    nombre.slice(1,4) --> "ico"
+
+
+OTRO EJEMPLO DE FUNCION
+
+function operNum(a,b){}
+    suma= a+b
+    resta= a-b
+    division= a/b 
+    producto= a*b 
+    potencia= a**b
+    resto= a%b
+    print("suma: "+ suma)
+    print("resta: "+ resta)
+}
+
+AND --> &&
+OR --> ||
+NOT --> !
+
+USO DE IF 
+
+function tipoNum(num){
+    var res; (se inicializa la variable)
+    if (num > 0){
+        res = "POSITIVO";
+    }
+    else{
+        if(num < 0) {
+            res = "NEGATIVO";
+        }
+    }
+    return res;
+}
+
+CICLO WHILE
+
+function cicloW(txt,cant){
+    var res="";
+    var i=0;
+    while(i<cant){
+        res = res+txt;
+        i++; (Es lo mismo que que "i+=1", tambien se puede usar)
+    }
+    return res;
+}
+
+CICLO WHILE COMPARADO A FOR (Ejemplo en el que ambas hacen lo mismo)
+
+WHILE
+function ciclow(ini,fin){
+    var i=ini;
+    while (i<fin){
+        print(i+")"+"hola_w")
+        i++
+    }
+}
+
+FOR
+function cicloF(ini,fin){
+
+    for (i=ini;i<fin;i++){
+        print(i+")"+"hola_f")
+    }
+    //print("i vale"+i)
+}
+
+
+        ARRAYS
+array -> Es el equivalente a la lista en python
+Asi se inicializa un array:
+function cargarLista(){
+    lst=[1,2,3,4,5]
+    return lst
+}
+
+x = cargarLista() (se carga la lista en la variable x)
+
+x.push(num) --> Agrega al final
+x.unshift(num) --> Agrega al principio
+x.slice(num1,num2) --> Para hacer Slicing
+x.pop --> Elimina del final
+x.shift --> Elimina del principio
+
+
+    OBJETOS
+objetos - Similares a diccionarios de python
+
+function cargarObjetos(){
+    obj = {
+        nom: "Nicolas Broyad",
+        id: 422421,
+        aprobado: true,
+        notas: ["A","A","B","D","C"]
+        prom: 6.44
+    }
+    return obj 
+}
+
+object.keys(obj) --> Para obtener claves
+object.values(obj) --> Para obtener los valores
+obj(clave)=valor --> Para agregar una nueva clave con un valor 
+delete obj["clave"] --> Para eliminar una clave
+
+FUNCION PARA ORDENAR ARRAYS (Por parametro para el "sort" o "reverse")
+function comparacion(a,b){
+    if(a > b)
+        res=1;
+    else if (a < b)
+        res= -1;
+    else 
+        res=0;
+    return res
+};

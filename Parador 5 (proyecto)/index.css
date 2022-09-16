@@ -1,0 +1,189 @@
+/*INDEX*/
+
+* {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(39, 39, 39);
+    height: 60px;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    padding: 8px;
+    color: wheat;
+    font-style: italic;
+}
+
+#inscripcion {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+
+}
+
+#home { 
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 22px;
+
+}
+
+#undernav {
+    height: 450px;
+    background-color: rgb(39, 39, 39);
+}
+
+#f5 {
+    height: 400px;
+    position: absolute;
+    left: 70px;
+    z-index: 0;
+}
+
+iframe {
+    height: 400px;
+    width: 520px;
+    position: absolute;
+    right: 70px;
+}
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+
+#body {
+    height: 1400px;
+    background-color: wheat;
+    color: rgb(39, 39, 39);
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+h2 {
+    text-align: center; 
+    padding: 50px;
+}
+
+p {
+    padding: 10px;
+    font-style: italic;
+}
+
+.cajas {
+    background-color: rgb(39, 39, 39);
+    height: 400px;
+    width: 400px;
+}
+
+#fm5 {
+    position: absolute;
+    left: 300px;
+}
+
+#fm8 {
+    position: absolute;
+    right: 300px;
+}
+
+#ff5{
+    position: absolute;
+    left: 300px;
+    top: 1300px;
+}
+
+#ff8 {
+    position: absolute;
+    right: 300px;
+    top: 1300px;
+}
+
+input {
+    border: 0ch;
+    margin-left: 10px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.crear_equipo{
+    position: relative;
+    top: 50px;
+    left: -140px;
+}
+
+img.crear_equipo {
+    height: 50px;
+    position: relative;
+    left: -80px;
+    top: 70px;
+}
+
+/*****************************************************************/
+
+#titulo {
+    color: wheat;
+    text-align: center;
+    font-style: oblique;
+    background-color: black;
+}
+
+#fondo {
+    background-color: white;
+}
+
+#subtitulo {
+    padding: 10px;
+}
+
+#footer {
+    background-color: black;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#porcentaje {
+    padding: 10px;
+}
+
+#cuadro {
+    position: relative;
+    top: 10px;
+}
+
+#pantalla {
+    background-color: lightgreen;
+}
+
+.directorio {
+   margin: 5px;
+   float: right;
+   width: 250px;
+   max-width: 30px;
+}
