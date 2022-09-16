@@ -12,7 +12,7 @@ header {
     z-index: 1;
 }
 
-h1 {
+#Parador5 {
     text-align: center;
     position: relative;
     padding: 8px;
@@ -94,13 +94,13 @@ p {
 #ff5{
     position: absolute;
     left: 300px;
-    top: 1300px;
+    top: 1600px;
 }
 
 #ff8 {
     position: absolute;
     right: 300px;
-    top: 1300px;
+    top: 1600px;
 }
 
 input {
