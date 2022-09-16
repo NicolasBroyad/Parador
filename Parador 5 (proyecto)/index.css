@@ -38,12 +38,13 @@ header {
 }
 
 #undernav {
-    height: 950px;
+    height: 1100px;
     background-color: rgb(39, 39, 39);
 }
 
 #principal {
-    height: 100%;
+    position: absolute;
+    align-items: center;
     width: 100%;
 }
 
