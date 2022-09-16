@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+}
+
+#inscripcion.titulos {
+    text-align: center;
+}
+
+#informacion.titulos {
+    text-align: center;
+    margin: 300px;
+}
+
+#boton_inscrip.Botones {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+#boton_infor.Botones {
+    position: absolute;
+    left: 29%;
+    top: 70%;
+}
