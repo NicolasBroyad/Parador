@@ -1,5 +1,5 @@
 # Parador
-https://prod.liveshare.vsengsaas.visualstudio.com/join?FFADF54F4042A4D48FED3B7BA071E677721C
+https://prod.liveshare.vsengsaas.visualstudio.com/join?03AFC7952BF270B76651ABDA3F473F6C5497
 
 PAGINAS DE REFERENCIA:
 1-http://elsapofutbol.com/
@@ -8,4 +8,4 @@ PAGINAS DE REFERENCIA:
 4-
 5-
 
-https://www.google.com/imgres?imgurl=https%3A%2F%2Figym247.com%2Fwp-content%2Fuploads%2F2020%2F07%2F78-784082_black-shadow-png-fade-to-black-png-9.07.49-am.png&imgrefurl=https%3A%2F%2Figym247.com%2F78-784082_black-shadow-png-fade-to-black-png-9-07-49-am%2F&tbnid=qGu7-SMWU5xiGM&vet=12ahUKEwjGvJzftp_6AhWNFLkGHWhoAXwQMygBegUIARC8AQ..i&docid=d5BAecjEGwnlJM&w=1598&h=446&q=black%20fading%20shadow%20png&ved=2ahUKEwjGvJzftp_6AhWNFLkGHWhoAXwQMygBegUIARC8AQ
+PALETA: https://coolors.co/palette/121619-2d4739-09814a-bcb382-e5c687
