@@ -7,16 +7,16 @@
 header {
     position: sticky;
     top: 0;
-    background-color: rgb(39, 39, 39);
+    background-color: #121619;
     height: 60px;
-    z-index: 1;
+    z-index: 100;
 }
 
 #Parador5 {
     text-align: center;
     position: relative;
     padding: 8px;
-    color: wheat;
+    color: #E5C687;
     font-style: italic;
 }
 
@@ -38,14 +38,38 @@ header {
 }
 
 #undernav {
-    height: 1100px;
-    background-color: rgb(39, 39, 39);
+    position: static;
+    background-color: #121619;
 }
 
 #principal {
+    width: 100%;   
+}
+
+#ver_torneos_div {
+    position: relative;
+    top: auto;
+    height: 160px;
+    background-color: #121619;
+    z-index: 10;
+}
+
+#ver_torneos_texto {
+    font-size: 25px;
     position: absolute;
-    align-items: center;
-    width: 100%;
+    top: 32%;   
+    left: 49.5%;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+
+#flecha {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80px;
 }
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
