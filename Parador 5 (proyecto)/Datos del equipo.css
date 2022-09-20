@@ -36,21 +36,11 @@ h1 {
     right: 22px;
 
 }
-
-#undernav {
-    height: 950px;
-    background-color: rgb(39, 39, 39);
-}
-
-#principal {
-    height: 100%;
-    width: 100%;
-}
-
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
 #body {
-    height: 2000px;
+    position: relative;
+    height: 600px;
     background-color: wheat;
     color: rgb(39, 39, 39);
 }
@@ -97,7 +87,11 @@ body {
 }
 
 #porcentaje {
-    padding: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 43%;
+    transform: translate(-50%);
+    background-color: wheat;
 }
 
 #cuadro {

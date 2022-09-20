@@ -8,19 +8,19 @@ header {
     position: sticky;
     top: 0;
     background-color: #121619;
-    height: 60px;
+    height: 70px;
     z-index: 100;
 }
 
 #Parador5 {
-    text-align: center;
-    position: relative;
-    padding: 8px;
-    color: #E5C687;
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
     font-style: italic;
 }
 
-#inscripcion {
+#perfil {
     height: 27px;
     width: 27px;
     position: absolute;
@@ -57,16 +57,16 @@ header {
 #ver_torneos_texto {
     font-size: 25px;
     position: absolute;
-    top: 32%;   
+    top: 28%;   
     left: 49.5%;
-    color: white;
+    color: #BCB382;
     transform: translate(-50%,-50%);
     
 }
 
 #flecha {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 80px;
@@ -75,9 +75,10 @@ header {
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
 #body {
+    position: relative;
     height: 2000px;
-    background-color: wheat;
-    color: rgb(39, 39, 39);
+    background-color: #E5C687;
+    color: #2D4739;
 }
 
 body {
@@ -100,33 +101,41 @@ p {
     font-style: italic;
 }
 
+#torneos {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    height: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+    background-color: #E5C687;
+}
+
 .cajas {
-    display: inline;
-    background-color: rgb(39, 39, 39);
+    background-color: #121619;
     height: 400px;
     width: 400px;
 }
 
 #fm5 {
     position: absolute;
-    left: 300px;
 }
 
 #fm8 {
     position: absolute;
-    right: 300px;
+    right: 0;
 }
 
 #ff5{
     position: absolute;
-    left: 300px;
-    top: 1600px;
+    left: 0;
+    bottom: 0;
 }
 
 #ff8 {
     position: absolute;
-    right: 300px;
-    top: 1600px;
+    right: 0;
+    bottom: 0;
 }
 
 input {
@@ -154,7 +163,7 @@ img.crear_equipo {
 /*------------------------FOOTER-----------------------------------------*/
 
 #footer {
-    background-color: black;
+    background-color: #2D4739;
     height: 300px;
     color: white;   
     padding: 10px;

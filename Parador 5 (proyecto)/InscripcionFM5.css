@@ -60,24 +60,29 @@ body {
     position: relative;
     top: 70px;
     text-align: center;
+    font-size: 200%;
 }
 
 #informacion.titulos {
+    position: relative;
     text-align: center;
-    margin: 500px;
+    margin: 40px;
+    font-size: 200%;
 }
 
 /* ---------------------------------------ACA COMIENZA LOS BOTONES--------------------------------------------------------------------------------*/
 
 #boton_inscrip.Botones {
     position: absolute;
-    left: 35%;
+    left: 50%;  
+    transform: translate(-50%);
     top: 275px;
 }
 
 #boton_infor.Botones {
     position: absolute;
-    left: 29%;
+    transform: translate(-50%);
+    left: 50%;
     top: 700px;
 }
 
