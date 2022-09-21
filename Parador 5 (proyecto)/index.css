@@ -12,6 +12,14 @@ header {
     z-index: 100;
 }
 
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
 #Parador5 {
     position: absolute;
     left: 11%;
@@ -39,12 +47,33 @@ header {
 }
 
 #undernav {
-    position: static;
+    position: relative;
     background-color: #121619;
 }
 
 #principal {
     width: 100%;   
+}
+
+#torneos_de_futbol_beige {
+    position: absolute;
+    top: 10%;
+}
+
+#torneos_de_futbol_beige:hover {
+    
+}
+
+#futbol_5_beige {
+    position: absolute;
+    height: 75px;
+    top: 70%;
+    left: 9%;
+}
+
+#futbol_5_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
 }
 
 #ver_torneos_div {
@@ -94,7 +123,7 @@ body {
 
 h2 {
     text-align: center; 
-    padding: 50px;
+    padding: 60px;
 }
 
 p {
@@ -103,9 +132,9 @@ p {
 }
 
 #torneos {
-    display: inline-block;
+    display: inline-block; 
     position: relative;
-    top: 30%;
+    top: 22%;
     left: 50%;
     height: 50%;
     width: 70%;
@@ -114,7 +143,7 @@ p {
 }
 
 .cajas {
-    margin: 120px;
+    margin: 100px;
     position: relative;
     display: inline-block;
     background-color: #121619;
@@ -122,8 +151,41 @@ p {
     width: 400px;
 }
 
-#fm5{
-    position: relative;
+
+#fm5img {
+    height: 450px;
+}
+
+#fm5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#fm8img {
+    height: 450px;
+}
+
+#fm8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff5img {
+    height: 450px;
+}
+
+#ff5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff8img {
+    height: 450px;
+}
+
+#ff8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
 }
 
 input {

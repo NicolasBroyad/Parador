@@ -1,15 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-image: url('img/registro.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #121619;
+  height: 70px;
+  z-index: 100;
+}
+
+#logo_p5 {
+  height: 37px;
+  position: absolute;
+  left: 8%;
+  top: 20%;
+
+}
+
+#Parador5 {
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  color: #BCB382;
+  font-style: verdana;
+}
+
+#perfil {
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  top: 25%;
+  right: 4%;
+
+}
+
+#iniciar_sesion {   
+  text-decoration: none;
+  font-size: 18px;
+  position: absolute;
+  top: 32%;
+  right: 5.6%;
+  color: #BCB382 ;
+}
+
+/*--------------------HASTA ACA NAV--------------------------------------------------*/
+
+body {
+  padding: 0;
+  background-image: url('img/registro2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#body {
+  font-family:Arial, Helvetica, sans-serif;
+}
 
   /*------------------------------------------CAJA DEL FORMULARIO-----------------------------------------------------------------------*/
 
