@@ -103,6 +103,7 @@ p {
 }
 
 #torneos {
+    display: inline-block;
     position: relative;
     top: 30%;
     left: 50%;
@@ -113,30 +114,16 @@ p {
 }
 
 .cajas {
+    margin: 120px;
+    position: relative;
+    display: inline-block;
     background-color: #121619;
     height: 400px;
     width: 400px;
 }
 
-#fm5 {
-    position: absolute;
-}
-
-#fm8 {
-    position: absolute;
-    right: 0;
-}
-
-#ff5{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-#ff8 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+#fm5{
+    position: relative;
 }
 
 input {
