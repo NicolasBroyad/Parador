@@ -51,6 +51,10 @@ header {
     background-color: #121619;
 }
 
+#imgprincipal_div {
+
+}
+
 #principal {
     width: 100%;   
 }
@@ -66,7 +70,7 @@ header {
 
 #futbol_5_beige {
     position: absolute;
-    height: 75px;
+    height: 10%;
     top: 70%;
     left: 9%;
 }
