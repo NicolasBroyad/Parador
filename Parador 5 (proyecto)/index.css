@@ -62,12 +62,38 @@ header {
 #torneos_de_futbol_beige {
     position: absolute;
     height: 13%;
-    top: 9%;
+    top: 15%;
     left: 3.3%;
 }
 
 #torneos_de_futbol_beige:hover {
-    
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#masculino_beige {
+    position: absolute;
+    height: 11.6%;
+    top: 34.5%;
+    left: 6.4%;
+
+}
+
+#masculino_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#femenino_beige {
+    position: absolute;
+    height: 11.6%;
+    top: 49%;
+    left: 7.2%;
+}
+
+#femenino_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
 }
 
 #futbol_5_beige {
@@ -80,6 +106,18 @@ header {
 #futbol_5_beige:hover {
     transition: 300ms;
     transform: scale(1.05);
+}
+
+#futbol_8_beige {
+    position: absolute;
+    height: 8.6%;
+    top: 81.5%;
+    left: 9.1%;
+}
+
+#futbol_8_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05); 
 }
 
 #ver_torneos_div {
