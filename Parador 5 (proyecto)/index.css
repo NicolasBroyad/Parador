@@ -61,7 +61,9 @@ header {
 
 #torneos_de_futbol_beige {
     position: absolute;
-    top: 10%;
+    height: 13%;
+    top: 9%;
+    left: 3.3%;
 }
 
 #torneos_de_futbol_beige:hover {
@@ -71,7 +73,7 @@ header {
 #futbol_5_beige {
     position: absolute;
     height: 9%;
-    top: 65%;
+    top: 70%;
     left: 9%;
 }
 
@@ -84,6 +86,7 @@ header {
     position: relative;
     top: auto;
     height: 160px;
+    width: 100%;
     background-color: #121619;
     z-index: 10;
 }
