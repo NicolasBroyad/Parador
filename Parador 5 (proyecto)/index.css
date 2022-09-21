@@ -70,8 +70,8 @@ header {
 
 #futbol_5_beige {
     position: absolute;
-    height: 10%;
-    top: 70%;
+    height: 9%;
+    top: 65%;
     left: 9%;
 }
 
@@ -155,6 +155,10 @@ p {
     width: 400px;
 }
 
+.cajas:hover {
+    box-shadow: 80px 80px 80px #121619;
+    transition: 300ms;
+}
 
 #fm5img {
     height: 450px;
