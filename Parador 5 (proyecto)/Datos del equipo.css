@@ -46,75 +46,111 @@ header {
 
 /*--------------------HASTA ACA NAV--------------------------------------------------*/
 
-#body {
-    position: relative;
-    height: 900px;
-    background-color: #E5C687;
-    color: #2D4739;
-}
-
-body {
+#body5 {
+    height: 1000px;
+    background-image: url(img/registro2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
+
     
 }
-/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
 
-#fondo {
-    background-color: white;
+#body8 {
+    height: 1000px;
+    background-image: url(img/registro2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+
+    
+}
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/ 
+
+
+.formulario {
+    padding: 50px;
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10%;
+    transform: translate(-50%,-50%);
+    background-color: #BCB382;
+
+}
+
+.formulario8 {
+    padding: 50px;
+    height: 75%;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    border-radius: 10%;
+    transform: translate(-50%,-50%);
+    background-color: #BCB382;
+
 }
 
 #subtitulo {
     padding: 10px;
 }
 
-#pie_de_pagina {
-    background-color: black;
-    color: #09814A;
-    padding: 10px;
+#porcentaje5 {   
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    height: 110px;
+    border-radius: 10%;
+    background-color: #09814A;
+    position: absolute;
+    font-size: 27.2px;
+    left: 49.5%;
+    bottom: 18%;
+    transform: translate(-50%);
 }
 
-.redes2 {
-    max-width: 20px;
-    max-height: 15px; 
+#porcentaje8 {   
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    height: 110px;
+    border-radius: 10%;
+    background-color: #09814A;
+    position: absolute;
+    font-size: 27.2px;
+    left: 49.5%;
+    bottom: 5%;
+    transform: translate(-50%);
 }
 
-#saul {
-    max-width: 40px;
-    max-height: 40px ;
+.porcentaje{
+    padding: 20px;
 }
 
-#porcentaje {
+#meter5 {
     position: absolute;
     left: 50%;
-    bottom: 43%;
     transform: translate(-50%);
-    background-color: #E5C687;
+    bottom: -10px;
+    height: 70px;
+    width: 300px;
+}
+
+#meter8 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -10px;
+    height: 70px;
+    width: 300px;
 }
 
 #cuadro {
     position: relative;
     top: 10px;
 }
-
-/*------------------------FOOTER-----------------------------------------*/
-
-#footer {
-    background-color: #2D4739;
-    height: 300px;
-    color: #BCB382;   
-    padding: 10px;
-}
-
-.redes {
-    max-width: 20px;
-    max-height: 15px; 
-}
-
-#saul {
-    max-width: 40px;
-    max-height: 40px;
-}
-    
