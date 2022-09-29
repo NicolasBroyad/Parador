@@ -11,4 +11,3 @@ PAGINAS DE REFERENCIA:
 PALETA: https://coolors.co/palette/121619-2d4739-09814a-bcb382-e5c687
 
 
-file:///C:/Users/UCA.MASTERAULASHP/Downloads/Parador-main/Parador%205%20(proyecto)/index.html
