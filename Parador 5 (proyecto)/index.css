@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -51,9 +55,6 @@ header {
     background-color: #121619;
 }
 
-#imgprincipal_div {
-
-}
 
 #principal {
     width: 100%;   
@@ -145,6 +146,13 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
     height: 80px;
+    scroll-behavior: smooth;
+}
+
+#flecha:hover {
+    transition: 300ms;
+    transform: scale(1.02) translate(-50%,-50%);
+
 }
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
