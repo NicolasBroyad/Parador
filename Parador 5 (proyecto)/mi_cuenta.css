@@ -1,0 +1,149 @@
+/*MI CUENTA*/
+
+* {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
+}
+
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#perfil {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 25%;
+    right: 4%;
+
+}
+
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
+#undernav {
+    position: relative;
+    background-color: #121619;
+}
+
+
+#principal {
+    width: 100%;   
+}
+
+
+#mi_cuenta {
+    position: relative;
+    top: auto;
+    height: 160px;
+    width: 100%;
+    background-color: #121619;
+    z-index: 10;
+}
+
+#mi_cuenta_txt {
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #BCB382;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+
+#body {
+    position: relative;
+    height: 2000px;
+    background-color: #E5C687;
+    color: #2D4739;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+h2 {
+    text-align: center; 
+    padding: 60px;
+}
+
+#mis_inscripciones_div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: 60vh;
+    width: 68%;
+}
+
+#mis_partidos_div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: 60vh;
+    width: 68%;
+}
+
+#fixture_div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: 60vh;
+    width: 68%;;
+}
+
+/*------------------------FOOTER-----------------------------------------*/
+
+#footer {
+    background-color: #2D4739;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
+}
