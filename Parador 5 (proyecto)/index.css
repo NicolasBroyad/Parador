@@ -181,8 +181,8 @@ p {
     position: relative;
     top: 22%;
     left: 50%;
-    height: 50%;
-    width: 70%;
+    min-height:max-content;
+    min-width: max-content;
     transform: translate(-50%,-50%);
     background-color: #E5C687;
 }
@@ -192,8 +192,8 @@ p {
     position: relative;
     display: inline-block;
     background-color: #121619;
-    height: 400px;
-    width: 400px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 .cajas:hover {
