@@ -189,8 +189,8 @@ p {
     position: relative;
     top: 22%;
     left: 50%;
-    min-height:max-content;
-    min-width: max-content;
+    height: 50%;
+    width: 40%;
     transform: translate(-50%,-50%);
     background-color: #E5C687;
 }
