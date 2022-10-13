@@ -1,4 +1,4 @@
-/*INDEX*/
+/*INDEX ADMIN*/
 
 * {
     margin: 0;
@@ -73,7 +73,6 @@ header {
 }
 
 #torneos_de_futbol_beige {
-    scroll-behavior: smooth;
     position: absolute;
     height: 13%;
     top: 15%;
@@ -185,6 +184,7 @@ body {
     
 }
 
+
 /*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
 
 h2 {
@@ -259,6 +259,22 @@ p {
     transform: scale(1.08);
 }
 
+#crear_torneo_img {
+    height: 300px;
+}
+
+#crear_torneo_img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#crear_torneo {
+    margin: 100px;
+    position: relative;
+    display: inline-block;
+    max-width: fit-content;
+    max-height: fit-content;
+}
 
 input {
     border: 0ch;

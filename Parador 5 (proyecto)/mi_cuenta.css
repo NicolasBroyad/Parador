@@ -58,19 +58,27 @@ header {
 
 
 #mi_cuenta {
-    position: relative;
-    top: auto;
-    height: 160px;
+    position: sticky;
+    top: -9.9%;
+    height: 30vh;
     width: 100%;
     background-color: #121619;
     z-index: 10;
+}
+
+#mi_cuenta_img {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
 }
 
 #mi_cuenta_txt {
     font-family: fantasy;
     font-size: 40px;
     position: absolute;
-    top: 50%;
+    bottom: 5%;
     left: 50%;
     color: #BCB382;
     transform: translate(-50%,-50%);
@@ -81,10 +89,10 @@ header {
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
 #body {
+    padding: 8vh;
     position: relative;
-    height: 2000px;
+    height: fit-content;
     background-color: #E5C687;
-    color: #2D4739;
 }
 
 body {
@@ -98,35 +106,183 @@ body {
 /*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
 
 h2 {
+    font-size: 3vh;
+    font-family: fantasy;
+    letter-spacing: 1px;
     text-align: center; 
     padding: 60px;
 }
 
 #mis_inscripciones_div {
+    color: #2D4739;
     position: relative;
     left: 50%;
     transform: translate(-50%);
     border-bottom: 4px solid #121619;
-    height: 60vh;
+    height: fit-content;
     width: 68%;
+}
+
+#inscripcion {
+    margin-bottom: 12vh;
+    border: 2px solid #09814A;
+    border-radius: 6vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: #121619;
+    height: 8vh;
+    width: 45%;
+}
+
+#mis_inscripciones_img {
+    position: absolute;
+    height: 3.2vh;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+}
+
+#mis_inscripciones_txt {
+    color: #09814A;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 2.7vh;
+
+}
+
+#editar_inscripcion {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    right: 9%;
+    height: 3.2vh;
 }
 
 #mis_partidos_div {
+    padding-bottom: 12vh;
+    color: #2D4739;
     position: relative;
     left: 50%;
     transform: translate(-50%);
     border-bottom: 4px solid #121619;
-    height: 60vh;
+    height: fit-content;
     width: 68%;
 }
 
+#partidos {
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    padding: 2vh;
+    position: relative;
+    left: 50%;
+    top: 20vh;
+    transform: translate(-50%,-50%);
+    background-color: #121619;
+    width: 50%;
+    height: fit-content;
+}
+
+.fechas {
+    padding: 2vh;
+    color: #09814A;
+    font-family: fantasy;
+    font-size: 2.4vh;
+    border-bottom: 1px solid #09814A;
+}
+
 #fixture_div {
+    color: #2D4739;
     position: relative;
     left: 50%;
     transform: translate(-50%);
     border-bottom: 4px solid #121619;
-    height: 60vh;
+    height: 120vh;
     width: 68%;;
+}
+
+#fixture {
+    text-align: center;
+    border-radius: 50px;
+    padding: 2vh;
+    position: relative;
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%,-50%);
+    background-color: #121619;
+    width: 50%;
+    height: fit-content;
+}
+
+.fases {
+    padding: 5vh;
+}
+
+.series {
+    margin: 1vh;
+    height: 5vh;
+    border-radius: 25px;
+
+}
+
+.series_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#final_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+}
+
+#semi_1_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#semi_2_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_1_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_2_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_3_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_4_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
 }
 
 /*------------------------FOOTER-----------------------------------------*/
