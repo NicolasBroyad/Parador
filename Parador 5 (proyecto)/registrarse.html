@@ -5,6 +5,7 @@
         <title>Parador 5 - Torneo de fútbol</title>
         <link rel="stylesheet" type="text/css" href="inicio_de_sesion.css">
         <link rel="icon" href="img/pelota.png">
+        <script src="./validar_form.js"></script>
     </head>
 
     <header>
@@ -22,26 +23,27 @@
 
             <form method="post">
                 <div class="usuario">
-                    <input type="text" required>
+                    <input type="text" name="nombre" id="nombre">
                     <label>Ingrese su nombre</label>
+                    <p id="error_nombre"></p>
                 </div>
 
                 <div class="usuario">
-                    <input type="text" required>
+                    <input type="text" name="apellido" id="apellido">
                     <label>Ingrese su apellido</label>
                 </div>
 
                 <div class="usuario">
-                    <input type="email" required>
+                    <input type="email" name="email" id="email">
                     <label>Ingrese su correo</label>
                 </div>
 
                 <div class="usuario">
-                    <input type="password" required>
+                    <input type="password" name="contraseña" id="contraseña">
                     <label>Ingrese su contraseña</label>
                 </div>
 
-                <input type="submit" value="Registrarme">
+                <input type="submit" value="Registrarme" onclick="validarFormulario()">
 
                 <div class="registrarse">
                     <a href="inicio_de_sesion.html">Ya tengo una cuenta</a>
@@ -49,6 +51,4 @@
 
             </form>
         </div>
-
-        <script src="./parador.js"></script>
     </body>
