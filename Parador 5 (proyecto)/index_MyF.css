@@ -1,7 +1,9 @@
-/*INDEX*/
-
 * {
     margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 header {
@@ -28,12 +30,24 @@ header {
     font-style: verdana;
 }
 
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
 #perfil {
     height: 27px;
     width: 27px;
     position: absolute;
     top: 25%;
-    right: 4%;
+    right: 3%;
 
 }
 
@@ -46,106 +60,7 @@ header {
     color: #BCB382 ;
 }
 
-#undernav {
-    position: relative;
-    background-color: #121619;
-}
 
-#imgprincipal_div {
-
-}
-
-#principal {
-    width: 100%;   
-}
-
-#torneos_de_futbol_beige {
-    position: absolute;
-    height: 13%;
-    top: 15%;
-    left: 3.3%;
-}
-
-#torneos_de_futbol_beige:hover {
-    transition: 300ms;
-    transform: scale(1.05);
-}
-
-#masculino_beige {
-    position: absolute;
-    height: 11.6%;
-    top: 34.5%;
-    left: 6.4%;
-
-}
-
-#masculino_beige:hover {
-    transition: 300ms;
-    transform: scale(1.05);
-}
-
-#femenino_beige {
-    position: absolute;
-    height: 11.6%;
-    top: 49%;
-    left: 7.2%;
-}
-
-#femenino_beige:hover {
-    transition: 300ms;
-    transform: scale(1.05);
-}
-
-#futbol_5_beige {
-    position: absolute;
-    height: 9%;
-    top: 70%;
-    left: 9%;
-}
-
-#futbol_5_beige:hover {
-    transition: 300ms;
-    transform: scale(1.05);
-}
-
-#futbol_8_beige {
-    position: absolute;
-    height: 8.6%;
-    top: 81.5%;
-    left: 9.1%;
-}
-
-#futbol_8_beige:hover {
-    transition: 300ms;
-    transform: scale(1.05); 
-}
-
-#ver_torneos_div {
-    position: relative;
-    top: auto;
-    height: 160px;
-    width: 100%;
-    background-color: #121619;
-    z-index: 10;
-}
-
-#ver_torneos_texto {
-    font-size: 25px;
-    position: absolute;
-    top: 28%;   
-    left: 49.5%;
-    color: #BCB382;
-    transform: translate(-50%,-50%);
-    
-}
-
-#flecha {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 80px;
-}
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 

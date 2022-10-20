@@ -62,6 +62,8 @@ header {
     color: #BCB382 ;
 }
 
+/*-----------------------------ACA EMIPIEZA EL UNDERNAV----------------------------------------*/
+
 #undernav {
     position: relative;
     background-color: #121619;
@@ -185,7 +187,7 @@ body {
     
 }
 
-/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
 
 h2 {
     text-align: center; 
@@ -203,19 +205,14 @@ p {
     position: relative;
     top: 22%;
     left: 50%;
-    height: 50%;
-    width: 70%;
+    height: fit-content;
+    max-width: 100vh;
     transform: translate(-50%,-50%);
     background-color: #E5C687;
 }
 
-.cajas {
-    margin: 100px;
-    position: relative;
-    display: inline-block;
-    background-color: #121619;
-    max-width: fit-content;
-    max-height: fit-content;
+.img_torneos {
+    margin: 100px; 
 }
 
 .cajas:hover {
@@ -224,7 +221,7 @@ p {
 }
 
 #fm5img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #fm5img:hover {
@@ -233,7 +230,7 @@ p {
 }
 
 #fm8img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #fm8img:hover {
@@ -242,7 +239,7 @@ p {
 }
 
 #ff5img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #ff5img:hover {
@@ -251,7 +248,7 @@ p {
 }
 
 #ff8img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #ff8img:hover {

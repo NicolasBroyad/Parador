@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -28,12 +32,24 @@ header {
     font-style: verdana;
 }
 
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
 #perfil {
     height: 27px;
     width: 27px;
     position: absolute;
     top: 25%;
-    right: 4%;
+    right: 3%;
 
 }
 
@@ -46,6 +62,7 @@ header {
     color: #BCB382 ;
 }
 
+
 #undernav {
     position: relative;
     background-color: #121619;
@@ -56,6 +73,7 @@ header {
     width: 100%;   
 }
 
+/*----------------------------ACA EMPIEZA EL UNDERNAV DE ESTA PAGINA---------------------------------------------------------*/
 
 #mi_cuenta {
     position: sticky;
