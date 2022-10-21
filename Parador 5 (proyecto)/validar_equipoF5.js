@@ -3,7 +3,6 @@ function validarNombreEquipo() {
 
     if(equipo.length == 0) {
         alert("La seccion de nombre de equipo esta incompleta, por favor ingresar NOMBRE DE EQUIPO");
-        return false
     }
 }
 
@@ -19,28 +18,22 @@ function validarNombres() {
     //VALIDAMOS QUE HAYAN CARACTERES EN LA SECCION DE NOMBRES
     if(nombre1.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
     else if (nombre2.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
     else if (nombre3.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
     else if (nombre4.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
     else if (nombre5.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
 
     else if (nombre6.length == 0) {
         alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
-        return false
     }
 }
 
@@ -54,27 +47,21 @@ function validarApellido(){
 
     if(ap1.length == 0) {
         alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");
-        return false
     }
     else if (ap2.length == 0) {
         alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
-        return false
     }
     else if (ap3.length == 0) {
         alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
-        return false
     }
     else if (ap4.length == 0) {
         alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
-        return false
     }
     else if (ap5.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");   
-        return false 
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
     else if (ap6.length == 0) {
         alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
-        return false
     }
 
 }
@@ -91,23 +78,18 @@ function validarDNI() {
     //VALIDAMOS QUE HAYAN CARACTERES EN LA SECCION DE DNI
     if(dni1.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
-        return false
     }
     else if (dni2.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
-        return false
     }
     else if (dni3.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
-        return false
     }
     else if (dni4.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
-        return false
     }
     else if (dni5.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
-        return false
     }
 }
 

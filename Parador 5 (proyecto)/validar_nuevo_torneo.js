@@ -10,61 +10,48 @@ function validar(){
 
     //SECCION JUGADORES
     if (jugadores.length == 0){
-        alert("El numero de jugadores esta vacio");
-        return false
+        alert("El numero de jugadores esta vacio")
     }
     else if (jugadores <= 0){
-        alert("El numero de jugadores es incorrecto.");
-        return false
+        alert("El numero de jugadores es incorrecto.")
     }   
     //SECCION SUPLENTES
     if (suplentes.length == 0){
-        alert("El numero de suplentes esta vacio");
-        return false
+        alert("El numero de suplentes esta vacio")
     }
     else if (suplentes <=0){
-        alert("El numero de suplentes es incorrecto.");
-        return false
+        alert("El numero de suplentes es incorrecto.")
     }
     //SECCION PRECIO
     if (precio.length == 0){
         alert("El precio esta vacio.");
-        return false
     }
     else if (precio <= 0) {
-        alert("El precio es incorrecto.");
-        return false
+        alert("El precio es incorrecto.")
     }
     //SECCION PARTIDOS MAXIMO 
     if (partidos.lenght == 0) {
-        alert("El numero de partidos esta vacio");
-        return false
+        alert("El numero de partidos esta vacio")
     }
     else if(partidos <= 0) {
-        alert("El numero de partidos es incorrecto");
-        return false
+        alert("El numero de partidos es incorrecto")
     }
     //SECCION DIA
     if (dia.length == 0) {
         alert("El dia esta vacio.");
-        return false
     }
     //SECCION CANCHAS
     if (cancha.length == 0){
-        alert("El numero de cancha esta vacio.");
-        return false
+        alert("El numero de cancha esta vacio.")
     }
     else if (cancha <= 0){
-        alert("El numero de cancha es incorrecto.");
-        return false
+        alert("El numero de cancha es incorrecto.")
     }
     //NUMERO DE JUGADORES CANCHA
     if (num_jugadores_cancha.length == 0){
         alert("La cantidad de jugadores de la cancha esta vacio.");
-        return false
     }
     else if (num_jugadores_cancha <= 0){
         alert("La cantidad de jugadores de la cancha es incorrecto.");
-        return false
     }
 }
