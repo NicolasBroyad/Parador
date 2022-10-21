@@ -113,8 +113,36 @@ header {
 
 }
 
+h4 {
+    font-size: 1vw;
+}
+
+input {
+    font-size: 0.5vw;
+}
+
 #subtitulo {
     padding: 10px;
+}
+
+label {
+    font-size: 0.9vw;
+}
+
+#cant_sup {
+    font-size: 1vw;
+}
+
+#subir_escudo {
+    font-size: 1vw;
+}
+
+.cabecera_tabla{
+    font-size: 1vw;
+}
+
+.columna_tabla {
+    font-size: 1vw;
 }
 
 #porcentaje5 {   
@@ -125,7 +153,7 @@ header {
     border-radius: 10%;
     background-color: #09814A;
     position: absolute;
-    font-size: 27.2px;
+    font-size: 1.4vw;
     left: 49.5%;
     bottom: 18%;
     transform: translate(-50%);

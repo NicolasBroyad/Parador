@@ -6,6 +6,7 @@
     <title>Parador 5 - Torneo de fútbol</title>
     <link href="Datos del equipo.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img/pelota.png">
+    <script src="validar_equipo.js" type="text/javascript"></script>
 </head>
 
 <body id="body5">
@@ -23,12 +24,12 @@
                     <h4>Datos del equipo (FÚTBOL 5 FEMENINO)</h4><br>
                     <div class="nombre_equipo">
                         <label for="equipo">Nombre del equipo:</label>
-                        <input id="equipo" type="text" name="equipo" required>
+                        <input id="equipo" type="text" name="equipo">
                     </div><br><!--NOMBRE DEL EQUIPO-->
 
                     <div>
                         Cantidad de suplentes:
-                        <select name="suplentes">
+                        <select name="suplentes" id="cant_suplentes">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -38,7 +39,11 @@
                     <div>
                         Subir escudo para el equipo:
                         <label for="escudo"></label>
-                        <input type="file" name="escudo" />
+                        <!-- File input field -->
+                        <input type="file" id="escudo" onchange="return validarEscudo()"/>
+
+                        <!-- Previa de imagen -->
+                        <div id="imagePreview"></div>
                     </div><br><!--ESCUDO DEL EQUIPO-->
 
                     <h4>Ingreso del plantel completo (suplentes incluidos):</h4><br>
@@ -114,7 +119,7 @@
                     </div><br>
 
                     <div>
-                        <input type="submit" name="submit" value="Enviar formulario">
+                        <input type="submit" value="Enviar formulario" onclick="validarNombreEquipo(),validarNombres(),validarApellido(),validarDNI()">
                         <input type="reset" name="reset" value="Limpiar formulario">
                     </div><br><!--BOTONES PARA TERMINAR O LIMPIAR EL FORMULARIO-->
             </form>
@@ -128,5 +133,6 @@
             </form>
         </div>
     </div>
+
 </body>
 </html>  

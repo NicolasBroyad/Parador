@@ -169,14 +169,10 @@ header {
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
-#body {
-    position: relative;
+body {
     height: 2000px;
     background-color: #E5C687;
     color: #2D4739;
-}
-
-body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,33 +194,24 @@ p {
 }
 
 #torneos {
+    margin-bottom: 50px;
     text-align: center;
     display: inline-block; 
     position: relative;
-    top: 22%;
+    top: 35%;
     left: 50%;
-    height: 50%;
-    width: 70%;
+    height: fit-content;
+    max-width: 120vh;
     transform: translate(-50%,-50%);
     background-color: #E5C687;
 }
 
-.cajas {
-    margin: 100px;
-    position: relative;
-    display: inline-block;
-    background-color: #121619;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
-.cajas:hover {
-    box-shadow: 80px 80px 80px #121619;
-    transition: 300ms;
+.img_torneos {
+    margin: 100px; 
 }
 
 #fm5img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #fm5img:hover {
@@ -233,7 +220,7 @@ p {
 }
 
 #fm8img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #fm8img:hover {
@@ -242,7 +229,7 @@ p {
 }
 
 #ff5img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #ff5img:hover {
@@ -251,7 +238,7 @@ p {
 }
 
 #ff8img {
-    height: 320px;
+    max-width: 25%;
 }
 
 #ff8img:hover {
@@ -260,7 +247,7 @@ p {
 }
 
 #crear_torneo_img {
-    height: 300px;
+    max-width: 25%;
 }
 
 #crear_torneo_img:hover {

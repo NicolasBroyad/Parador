@@ -116,7 +116,7 @@ body {
 #informacion_titulo {
     padding: 2%;
     text-align: center;
-    font-size: 140%;
+    font-size: 1.4vw;
     color: #2D4739;
 }
 
@@ -125,14 +125,14 @@ body {
     top: 20%;
     left: 32%;
     color: #2D4739;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 #jugadores {
     position: absolute;
     top: 22%;
     left: 26%;
-    height: 6%;
+    height: 1.2vw;
 }
 
 #txt_jugadores {
@@ -140,7 +140,7 @@ body {
     top: 21.5%;
     left: 36%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 #num_suplentes {
@@ -148,14 +148,14 @@ body {
     top: 35%;
     left: 32%;
     color: #2D4739;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 #suplentes {
     position: absolute;
     top: 37%;
     left: 26%;
-    height: 6%;
+    height: 1.3vw;
 }
 
 #txt_suplentes {
@@ -163,7 +163,7 @@ body {
     top: 37%;
     left: 36%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 #num_precio{
@@ -171,14 +171,14 @@ body {
     top: 51%;
     left: 32%;
     color: #2D4739;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 #precio {
     position: absolute;
     top: 52%;
     left: 25.5%;
-    height: 8%;
+    height: 1.5vw;
 }
 
 #txt_precio {
@@ -186,7 +186,7 @@ body {
     top: 52.5%;
     left: 42%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 #num_partidos {
@@ -194,7 +194,7 @@ body {
     top: 66%;
     left: 32%;
     color: #2D4739;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 
@@ -202,7 +202,7 @@ body {
     position: absolute;
     top: 66%;
     left: 25.5%;
-    height: 8%;
+    height: 1.5vw;
 }
 
 #txt_partidos {
@@ -210,7 +210,7 @@ body {
     top: 68%;
     left: 36%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 button {
@@ -224,7 +224,7 @@ button {
     border: 1px solid;
     background: #09814A;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 1vw;
     color: white;
     cursor: pointer;
     outline: none;
@@ -246,7 +246,7 @@ button:hover {
 #cuando_titulo {
     padding: 2%;
     text-align: center;
-    font-size: 140%;
+    font-size: 1.4vw;
     color: #2D4739;
 }
 
@@ -254,7 +254,7 @@ button:hover {
     position: absolute;
     top: 22%;
     left: 14%;
-    height: 6%;
+    height: 1.3vw;
 }
 
 #txt_dia {
@@ -262,14 +262,14 @@ button:hover {
     top: 21.5%;
     left: 22%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.2vw;
 }
 
 #horario {
     position: absolute;
     top: 37%;
     left: 14%;
-    height: 6%;
+    height: 1.3vw;
 }
 
 #txt_horario {
@@ -277,7 +277,7 @@ button:hover {
     top: 37%;
     left: 22%;
     color: #2D4739;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 #donde.divs {
@@ -289,59 +289,53 @@ button:hover {
 
 #donde_titulo {
     padding: 2% 17%;
-    font-size: 140%;
+    font-size: 1.3vw;
     color: #2D4739;
 }
-
-
 
 #ubi {
     position: absolute;
     left: 10%;
-    height: 13%;
+    height: 2.4vw;
 }
 
 #ubi_txt {
     position: absolute;
-    font-size: 130%;
+    font-size: 1.2vw;
     color: #2D4739;
     top: 31%;
     left: 14%;
-    height: 13%;
 }
 
 #canchita {
     position: absolute;
     top: 50%;
     left: 10%;
-    height: 13%;
+    height: 2.4vw;
 }
 
 #canchita_txt {
     position: absolute;
-    font-size: 130%;
+    font-size: 1.3vw;
     color: #2D4739;
     top: 53%;
     left: 14%;
-    height: 13%;
 }
 
 #tierra_santa {
     position: absolute;
-    font-size: 130%;
     color: #2D4739;
     top: 72%;
     left: 10%;
-    height: 13%;
+    height: 2.4vw;
 }
 
 #tierra_santa_txt {
     position: absolute;
-    font-size: 130%;
+    font-size: 1.2vw;
     color: #2D4739;
     top: 74%;
     left: 14%;
-    height: 13%;
 }
 
 #mapa {

@@ -6,7 +6,7 @@
         <title>Parador 5 - Torneo de fútbol</title>
         <link rel="stylesheet" type="text/css" href="inicio_de_sesion.css">
         <link rel="icon" href="img/pelota.png">
-        <script language="javascript" type="text/javascript" src="parador.js"></script>
+        <script src="validar_inicio.js"></script>
     </head>
     <header>
         <a href="index.html"> <h1 id="Parador5">Parador 5 </h1></a>
@@ -22,17 +22,17 @@
 
             <form method="post">
                 <div class="usuario">
-                    <input type="text" required>
-                    <label>Nombre de usuario</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label>Ingrese su nombre</label>
                 </div>
 
                 <div class="usuario">
-                    <input type="text" required>
-                    <label>Contraseña</label>
+                    <input type="password" name="contra" id="contra">
+                    <label>Ingrese su contraseña</label>
                 </div>
 
                 <div class="olvido_contraseña"><a href="nueva_contraseña.html">¿Olvido su contraseña?</a></div>
-                <input type="submit" value="Iniciar">
+                <input type="submit" value="Iniciar sesion" onclick="validarInicio()">
 
                 <div class="registrarse">
                     Quiero <a href="registrarse.html">registrarme</a>

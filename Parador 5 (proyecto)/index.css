@@ -172,14 +172,10 @@ header {
 
 /* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
 
-#body {
-    position: relative;
-    height: 2000px;
-    background-color: #E5C687;
-    color: #2D4739;
-}
-
 body {
+    background-color: #E5C687;
+    height: 2000px;
+    color: #2D4739;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,24 +196,20 @@ p {
 }
 
 #torneos {
+    margin: 10px;
     text-align: center;
     display: inline-block; 
     position: relative;
     top: 22%;
     left: 50%;
     height: fit-content;
-    max-width: 100vh;
+    max-width: 120vh;
     transform: translate(-50%,-50%);
     background-color: #E5C687;
 }
 
 .img_torneos {
     margin: 100px; 
-}
-
-.cajas:hover {
-    box-shadow: 80px 80px 80px #121619;
-    transition: 300ms;
 }
 
 #fm5img {

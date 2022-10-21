@@ -6,7 +6,7 @@
         <title>Parador 5 - Torneo de fútbol</title>
         <link rel="stylesheet" type="text/css" href="nueva_contraseña.css">
         <link rel="icon" href="img/pelota.png">
-        <script language="javascript" type="text/javascript" src="parador.js"></script>
+        <script src="validar_contra.js"></script>
     </head>
 
     <header>
@@ -24,21 +24,21 @@
 
             <form method="post">
                 <div class="usuario">
-                    <input type="email" required>
+                    <input type="email" name="email" id="email">
                     <label>Ingrese su correo</label>
                 </div>
 
                 <div class="usuario">
-                    <input type="password" required>
-                    <label>Ingrese su contraseña nueva</label>
+                    <input type="password" name="contra" id="contra_1">
+                    <label>Ingrese su contraseña</label>
                 </div>
 
                 <div class="usuario">
-                    <input type="password" required>
-                    <label>Ingrese de nuevo su contraseña nueva</label>
+                    <input type="password" name="contra" id="contra_2">
+                    <label>Ingrese su contraseña</label>
                 </div>
 
-                <input type="submit" value="Iniciar">
+                <input type="submit" value="Iniciar" onclick="validarContra()">
 
                 <div class="registrarse">
                     <a href="inicio_de_sesion.html">Volver atrás</a>
