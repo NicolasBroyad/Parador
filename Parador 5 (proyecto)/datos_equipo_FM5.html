@@ -6,6 +6,7 @@
     <title>Parador 5 - Torneo de fútbol</title>
     <link href="Datos del equipo.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img/pelota.png">
+    <script src="validar_equipoF5.js" type="text/javascript"></script>
 </head>
 
 <body id="body5">
@@ -20,15 +21,15 @@
     
     <div id="body" class="formulario">
         <form action="#"> <!--INICIO DEL FORMULARIO-->
-                    <h4 id="titulo"> Datos del equipo (FÚTBOL 5 MASCULINO) </h4><br>
+                    <h4>Datos del equipo (FÚTBOL 5 MASCULINO)</h4><br>
                     <div class="nombre_equipo">
                         <label for="equipo">Nombre del equipo:</label>
-                        <input id="equipo" type="text" name="equipo" required>
+                        <input id="equipo" type="text" name="equipo">
                     </div><br><!--NOMBRE DEL EQUIPO-->
 
-                    <div >
-                        <span id="cant_sup">Cantidad de suplentes:</span>
-                        <select name="suplentes">
+                    <div>
+                        Cantidad de suplentes:
+                        <select name="suplentes" id="cant_suplentes">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -36,23 +37,27 @@
                     </div><br><!--CANTIDAD DE SUPLENTES A ELEGIR-->
 
                     <div>
-                        <span id="subir_escudo">Subir escudo para el equipo:</span>
+                        Subir escudo para el equipo:
                         <label for="escudo"></label>
-                        <input type="file" name="escudo" />
+                        <!-- File input field -->
+                        <input type="file" id="escudo" onchange="return validarEscudo()"/>
+
+                        <!-- Previa de imagen -->
+                        <div id="imagePreview"></div>
                     </div><br><!--ESCUDO DEL EQUIPO-->
 
                     <h4>Ingreso del plantel completo (suplentes incluidos):</h4><br>
                     <div><!--INGRESO DE DATOS DE LOS JUGADORES RESTANTES-->
                         <table>
                             <tr>
-                                <td><strong class="cabecera_tabla">Nro. de camiseta </strong></td>
-                                <td><strong  class="cabecera_tabla">Nombre </strong></td>
-                                <td><strong class="cabecera_tabla">Apellido </strong></td>
-                                <td><strong class="cabecera_tabla">DNI</strong></td>
+                                <td><strong>Numero de camiseta </strong></td>
+                                <td><strong>Nombre </strong></td>
+                                <td><strong>Apellido </strong></td>
+                                <td><strong>DNI</strong></td>
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">1</td>
+                                <td>1</td>
                                 <td><label for="nombre1"></label>
                                     <input id="nombre1" type="text" name="nombre1"></td>
                                 <td><label for="ap1"></label>
@@ -62,7 +67,7 @@
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">2</td>
+                                <td>2</td>
                                 <td><label for="nombre2"></label>
                                     <input id="nombre2" type="text" name="nombre2"></td>
                                 <td><label for="ap2"></label>
@@ -72,7 +77,7 @@
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">3</td>
+                                <td>3</td>
                                 <td><label for="nombre3"></label>
                                     <input id="nombre3" type="text" name="nombre3"></td>
                                 <td><label for="ap3"></label>
@@ -82,7 +87,7 @@
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">4</td>
+                                <td>4</td>
                                 <td><label for="nombre4"></label>
                                     <input id="nombre4" type="text" name="nombre4"></td>
                                 <td><label for="ap4"></label>
@@ -92,7 +97,7 @@
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">5</td>
+                                <td>5</td>
                                 <td><label for="nombre5"></label>
                                     <input id="nombre5" type="text" name="nombre5"></td>
                                 <td><label for="ap5"></label>
@@ -102,7 +107,7 @@
                             </tr>
 
                             <tr>
-                                <td class="columna_tabla">6 (suplente)</td>
+                                <td>6 (suplente)</td>
                                 <td><label for="nombre6"></label>
                                     <input id="nombre6" type="text" name="nombre6"></td>
                                 <td><label for="ap6"></label>
@@ -114,7 +119,7 @@
                     </div><br>
 
                     <div>
-                        <input type="submit" name="submit" value="Enviar formulario">
+                        <input type="submit" value="Enviar formulario" onclick="validarNombreEquipo(),validarNombres(),validarApellido(),validarDNI()">
                         <input type="reset" name="reset" value="Limpiar formulario">
                     </div><br><!--BOTONES PARA TERMINAR O LIMPIAR EL FORMULARIO-->
             </form>
@@ -128,5 +133,6 @@
             </form>
         </div>
     </div>
+
 </body>
-</html>
+</html>  

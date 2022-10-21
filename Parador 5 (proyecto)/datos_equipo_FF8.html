@@ -6,9 +6,10 @@
     <title>Parador 5 - Torneo de fútbol</title>
     <link href="Datos del equipo.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img/pelota.png">
+    <script src="validar_equipoF8.js" type="text/javascript"></script>
 </head>
 
-<body id="body8">
+<body id="body5">
     <header>
         <a style="text-decoration: none;" href="index.html"> <h1 id="Parador5">Parador 5 </h1></a>
         <nav>
@@ -18,18 +19,17 @@
         </nav>
     </header>
     
-    <div id="body" class="formulario8">
+    <div id="body" class="formulario">
         <form action="#"> <!--INICIO DEL FORMULARIO-->
-                    <h4>Datos del equipo (FÚTBOL 8 MASCULINO)</h4><br>
-                    <div>
-                        Nombre del equipo:
-                        <label for="equipo"></label>
+                    <h4>Datos del equipo (FÚTBOL 8 FEMENINO)</h4><br>
+                    <div class="nombre_equipo">
+                        <label for="equipo">Nombre del equipo:</label>
                         <input id="equipo" type="text" name="equipo">
                     </div><br><!--NOMBRE DEL EQUIPO-->
 
                     <div>
                         Cantidad de suplentes:
-                        <select name="suplentes">
+                        <select name="suplentes" id="cant_suplentes">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -39,7 +39,11 @@
                     <div>
                         Subir escudo para el equipo:
                         <label for="escudo"></label>
-                        <input type="file" name="escudo" />
+                        <!-- File input field -->
+                        <input type="file" id="escudo" onchange="return validarEscudo()"/>
+
+                        <!-- Previa de imagen -->
+                        <div id="imagePreview"></div>
                     </div><br><!--ESCUDO DEL EQUIPO-->
 
                     <h4>Ingreso del plantel completo (suplentes incluidos):</h4><br>
@@ -103,7 +107,7 @@
                             </tr>
 
                             <tr>
-                                <td>6</td>
+                                <td>6 (suplente)</td>
                                 <td><label for="nombre6"></label>
                                     <input id="nombre6" type="text" name="nombre6"></td>
                                 <td><label for="ap6"></label>
@@ -145,20 +149,20 @@
                     </div><br>
 
                     <div>
-                        <input type="submit" name="submit" value="Enviar formulario">
+                        <input type="submit" value="Enviar formulario" onclick="validarNombreEquipo(),validarNombres(),validarApellido(),validarDNI()">
                         <input type="reset" name="reset" value="Limpiar formulario">
                     </div><br><!--BOTONES PARA TERMINAR O LIMPIAR EL FORMULARIO-->
             </form>
-        </div><br>
+        </div>
 
-        <div id="porcentaje8">
+        <div id="porcentaje5">
             <form name="formulario" method="post" action="/send.php">
                 <!-- MEDIDOR -->
                 <p id="porcentaje_txt" class="porcentaje">Porcentaje de equipos inscriptos (máx. 8): </p>
-                <meter id="meter8" class="porcentaje" min="0" max="8">
+                <meter id="meter5" class="porcentaje" min="0" max="8">
             </form>
         </div>
-
     </div>
+
 </body>
-</html>
+</html> 

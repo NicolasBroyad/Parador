@@ -2,7 +2,7 @@ function validarNombreEquipo() {
     var equipo = document.getElementById("equipo").value;
 
     if(equipo.length == 0) {
-        alert("La seccion de nombre de equipo esta incompleta, por favor ingresar nombre de equipo");
+        alert("La seccion de nombre de equipo esta incompleta, por favor ingresar NOMBRE DE EQUIPO");
     }
 }
 
@@ -14,26 +14,41 @@ function validarNombres() {
     var nombre4 = document.getElementById("nombre4").value;
     var nombre5 = document.getElementById("nombre5").value;
     var nombre6 = document.getElementById("nombre6").value;
+    var nombre7 = document.getElementById("nombre7").value;
+    var nombre8 = document.getElementById("nombre8").value;
+    var nombre9 = document.getElementById("nombre9").value;
 
     //VALIDAMOS QUE HAYAN CARACTERES EN LA SECCION DE NOMBRES
     if(nombre1.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
     else if (nombre2.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
     else if (nombre3.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
     else if (nombre4.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
     else if (nombre5.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
 
     else if (nombre6.length == 0) {
-        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un nombre");
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
+    }
+
+    else if (nombre7.length == 0) {
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
+    }
+
+    else if (nombre8.length == 0) {
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
+    }
+
+    else if (nombre9.length == 0) {
+        alert("Una de las secciones de nombre esta incompleta, por favor ingresar un NOMBRE");
     }
 }
 
@@ -44,26 +59,37 @@ function validarApellido(){
     var ap4 = document.getElementById("ap4").value;
     var ap5 = document.getElementById("ap5").value;
     var ap6 = document.getElementById("ap6").value;
+    var ap7 = document.getElementById("ap7").value;
+    var ap8 = document.getElementById("ap8").value;
+    var ap9 = document.getElementById("ap9").value;
 
     if(ap1.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");
     }
     else if (ap2.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");    
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
     else if (ap3.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");    
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
     else if (ap4.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");    
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
     else if (ap5.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");    
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
     else if (ap6.length == 0) {
-        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un apellido");    
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
     }
-
+    else if (ap7.length == 0) {
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
+    }
+    else if (ap8.length == 0) {
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
+    }
+    else if (ap9.length == 0) {
+        alert("Una de las secciones de apellido esta incompleta, por favor ingresar un APELLIDO");    
+    }
 }
 
 function validarDNI() {
@@ -74,6 +100,9 @@ function validarDNI() {
     var dni4 = document.getElementById("dni4").value;
     var dni5 = document.getElementById("dni5").value;
     var dni6 = document.getElementById("dni6").value;
+    var dni7 = document.getElementById("dni7").value;
+    var dni8 = document.getElementById("dni8").value;
+    var dni9 = document.getElementById("dni9").value;
 
     //VALIDAMOS QUE HAYAN CARACTERES EN LA SECCION DE DNI
     if(dni1.length == 0) {
@@ -89,6 +118,18 @@ function validarDNI() {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
     }
     else if (dni5.length == 0) {
+        alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
+    }
+    else if (dni6.length == 0) {
+        alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
+    }
+    else if (dni7.length == 0) {
+        alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
+    }
+    else if (dni8.length == 0) {
+        alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
+    }
+    else if (dni9.length == 0) {
         alert("Una de las secciones de dni esta incompleta, por favor ingresar un DNI");
     }
 }
