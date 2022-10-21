@@ -11,6 +11,7 @@ function validarContra() {
     if(email.length == 0) {
         // Si el campo está vacío
         alert("Falta completar la caja del mail, por favor ingresar un mail.");
+        return false
     }
 
     //ESTA PARTE DEL CODIGO ES PARA OBLIGAR AL USUARIO A COMPLETAR LA CAJA DE CONTRAS
