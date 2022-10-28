@@ -1,0 +1,27 @@
+<?php
+$user= "root";
+$pass= "";
+$host= "localhost";
+
+$connection = mysqli_connect($host, $user, $pass);
+
+$nombre = $_POST["nombre"]
+$apellido = $_POST["apellido"]
+$email = $_POST["email"]
+$contraseña = $_POST["contraseña"]
+
+if(!$connection)
+        {
+            echo "No se puede conectar con el servido" . mysql_error();
+        }
+    else
+        {
+            echo "<b><h1>Se ha conectado con el servidor</h3></b>"
+        }
+        $datab = "basededatos"
+        $db = mysql_select_db($connection,$datab)
+
+        if (!$db)
+        {
+            
+        }
