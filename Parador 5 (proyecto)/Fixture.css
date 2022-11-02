@@ -2,65 +2,113 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: sticky;
     top: 0;
-    background-color: rgb(39, 39, 39);
-    height: 60px;
-    z-index: 1;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
 }
 
-h1 {
-    text-align: center;
-    position: relative;
-    padding: 8px;
-    color: wheat;
-    font-style: italic;
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
 }
 
-#inscripcion {
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
+#perfil {
     height: 27px;
     width: 27px;
     position: absolute;
-    top: 15px;
-    right: 80px;
+    top: 25%;
+    right: 3%;
 
 }
 
-#home { 
-    height: 30px;
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
     position: absolute;
-    top: 12px;
-    right: 22px;
-
-}
-
-#undernav {
-    height: 950px;
-    background-color: rgb(39, 39, 39);
-}
-
-#principal {
-    height: 100%;
-    width: 100%;
-}
-
-#body {
-    height: 2000px;
-    background-color: wheat;
-    color: rgb(39, 39, 39);
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
 }
 
 body {
+    background-color: #E5C687;
+    height: 1500px;
+    color: #2D4739;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
     
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.fechas {
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    margin-top: 100px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #121619;
+    height: 160px;
+    width: 800px;
+}
+
+.rondas {
+    color: #09814A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/*------------------------FOOTER-----------------------------------------*/
+
 #footer {
-    background-color: black;
+    background-color: #2D4739;
     height: 300px;
     color: white;   
     padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
 }
