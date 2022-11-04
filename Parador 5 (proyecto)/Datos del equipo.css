@@ -145,56 +145,6 @@ label {
     font-size: 1vw;
 }
 
-#porcentaje5 {   
-    position: relative;
-    color: white;
-    border: 2px solid white;
-    height: 110px;
-    border-radius: 10%;
-    background-color: #09814A;
-    position: absolute;
-    font-size: 1.4vw;
-    left: 49.5%;
-    bottom: 18%;
-    transform: translate(-50%);
-}
-
-#porcentaje8 {   
-    position: relative;
-    color: white;
-    border: 2px solid white;
-    height: 110px;
-    border-radius: 10%;
-    background-color: #09814A;
-    position: absolute;
-    font-size: 27.2px;
-    left: 49.5%;
-    bottom: 5%;
-    transform: translate(-50%);
-}
-
-.porcentaje{
-    padding: 20px;
-}
-
-#meter5 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -10px;
-    height: 70px;
-    width: 300px;
-}
-
-#meter8 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -10px;
-    height: 70px;
-    width: 300px;
-}
-
 #cuadro {
     position: relative;
     top: 10px;
