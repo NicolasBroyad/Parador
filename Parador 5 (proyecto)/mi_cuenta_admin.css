@@ -78,7 +78,7 @@ header {
 #mi_cuenta {
     position: sticky;
     top: -9.9%;
-    height: 30vh;
+    height: 230px;
     width: 100%;
     background-color: #121619;
     z-index: 10;
@@ -96,11 +96,20 @@ header {
     font-family: fantasy;
     font-size: 40px;
     position: absolute;
-    bottom: 5%;
+    bottom: -2%;
     left: 50%;
     color: #BCB382;
     transform: translate(-50%,-50%);
     
+}
+
+#datos_cuenta {
+    position: relative;
+    top: -9.9%;
+    height: 200px;
+    width: 100%;
+    background-color: #121619;
+    z-index: 0;
 }
 
 
@@ -109,6 +118,7 @@ header {
 #body {
     padding: 8vh;
     position: relative;
+    top: auto;
     height: fit-content;
     background-color: #E5C687;
 }
@@ -142,6 +152,7 @@ h2 {
 }
 
 #inscripcion {
+    padding: 20px;
     margin-bottom: 12vh;
     border: 2px solid #09814A;
     border-radius: 6vh;
@@ -150,35 +161,116 @@ h2 {
     top: 50%;
     transform: translate(-50%);
     background-color: #121619;
-    height: 8vh;
-    width: 45%;
+    height: 400px;
+    width: 65%;
 }
 
 #mis_inscripciones_img {
     position: absolute;
-    height: 3.2vh;
-    top: 50%;
+    height: 8vh;
+    top: 15%;
     left: 10%;
     transform: translate(0,-50%);
 }
 
-#mis_inscripciones_txt {
-    color: #09814A;
+#titulo_torneo_txt {
+    background-color: #09814A;
+    padding: 15px;
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    color: #121619;
+    text-align: center;
     position: absolute;
-    left: 20%;
-    top: 50%;
+    left: 24%;
+    top: 15%;
+    transform: translate(0,-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+
+}
+
+#total_partidos_txt {
+    color: #BCB382;
+    position: absolute;
+    left: 26%;
+    top: 80%;
     transform: translate(0,-50%);
     font-family: fantasy;
     font-size: 2.7vh;
 
 }
 
+#fecha_inicial_txt {
+    color: #BCB382;
+    position: absolute;
+    left: 26%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 2.7vh;
+}
+
+#fecha_final_txt {
+    color: #BCB382;
+    position: absolute;
+    left: 26%;
+    top: 60%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 2.7vh;
+}
+
+#cant_jugadores_txt {
+    color: #BCB382;
+    position: absolute;
+    left: 26%;
+    top: 70%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 2.7vh;
+}
+
+#nombre_equipo {
+    border-bottom: 2px solid #09814A;
+    color: #09814A;
+    position: absolute;
+    left: 35%;
+    top: 36%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 4vh;
+}
+
 #editar_inscripcion {
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
-    right: 9%;
-    height: 3.2vh;
+    height: 5vh;
+    bottom: 1%;
+    left: 14%;
+
+}
+
+button {
+    border-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%,-50%);
+    width: 38%;
+    height: 8%;
+    border: 1px solid #121619;
+    background: #09814A;
+    border-radius: 25px;
+    font-size: 1vw;
+    color: #121619;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid white;
+    transition: .5s;
 }
 
 #mis_partidos_div {

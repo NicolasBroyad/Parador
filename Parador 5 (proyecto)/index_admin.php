@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Parador 5 - Torneo de fútbol</title>
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="index_admin.css">
         <link rel="icon" href="img/pelota.png">
     </head>
 
@@ -15,8 +15,8 @@
         <div id="undernav">
             <img id="principal" src="img/principal sin logo.jpg" alt="">
             <a href="#torneos"><img id="torneos_de_futbol_beige"  src="img/torneos de futbol beige.png" alt=""></a>
-            <a href="#FutbolM"><img id="masculino_beige" src="img/masculino beige.png" alt=""></a>
-            <a href="#FutbolF"><img id="femenino_beige" src="img/femenino beige.png" alt=""></a>
+            <a href="#FutbolMA"><img id="masculino_beige" src="img/masculino beige.png" alt=""></a>
+            <a href="#FutbolFA"><img id="femenino_beige" src="img/femenino beige.png" alt=""></a>
             <a href="index_f5.html"><img id="futbol_5_beige" src="img/futbol 5 beige.png" alt=""></a>
             <a href="index_f8.html"><img id="futbol_8_beige" src="img/futbol 8 beige.png" alt=""></a>
         </div>
@@ -24,20 +24,19 @@
             <span id="ver_torneos_texto"> VER TORNEOS </span>
             <a href="#torneos"><img id="flecha" src="img/flecha.png" alt=""></a>
         </div>
-
         <h2>TORNEOS DE FUTBOL</h2>
-        
         <div id="torneos">
-            <div id="FutbolM">
-                <a href="InscripcionFM5.php"><img src="img/fm5.jpg" id="fm5img" class="img_torneos" alt="Cargando futbol 5 Masculino"></a>
-                <a href="InscripcionFM8.php"><img src="img/fm8.jpg" id="fm8img" class="img_torneos" alt="Cargando futbol 8 Masculino"></a>
+            <div id="FutbolMA">
+                <a href="InscripcionFM5_admin.html"><img src="img/fm5.jpg" id="fm5img" class="img_torneos" alt="Cargando futbol 5 Masculino"></a>
+                <a href="InscripcionFM8_admin.html"><img src="img/fm8.jpg" id="fm8img" class="img_torneos" alt="Cargando futbol 8 Masculino"></a>
             </div>
-            <div id="FutbolF">
-                <a href="InscripcionFF5.php"><img src="img/ff5.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 5 Femenino"></a>
-                <a href="InscripcionFF8.php"><img src="img/ff8.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 8 Femenino"></a>
-        
+            <div id="FutbolFM">
+                <a href="InscripcionFF5_admin.html"><img src="img/ff5.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 5 Femenino"></a>
+                <a href="InscripcionFF8_admin.html"><img src="img/ff8.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 8 Femenino"></a>
             </div>
-
+            <div>
+                <a href="InscripcionNT.html"> <img src="img/crear torneo.png" alt="" id="crear_torneo_img" class="img_torneos"> </a> 
+            </div>
         </div>
         <footer id="footer">
             <p>Copyright 2022</p>

@@ -62,6 +62,15 @@ header {
     color: #BCB382 ;
 }
 
+#cerrar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
 /*-----------------------------ACA EMIPIEZA EL UNDERNAV----------------------------------------*/
 
 #undernav {
