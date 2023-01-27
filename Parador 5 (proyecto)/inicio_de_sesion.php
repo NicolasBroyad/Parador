@@ -17,16 +17,14 @@
 
             <form method="post">
                 <div class="usuario">
-                    <input type="text" name="correo" id="correo">
-                    <label>Ingrese su correo electrónico</label>
+                    <input type="text" name="correo" id="correo" placeholder="Ingrese su correo electronico">
                 </div>
 
                 <div class="usuario">
-                    <input type="password" name="contra" id="contra">
-                    <label>Ingrese su contraseña</label>
+                    <input type="password" name="contra" id="contra" placeholder="Ingrese su contraseña">
                 </div>
 
-                <div class="olvido_contraseña"><a href="nueva_contraseña.html">¿Olvido su contraseña?</a></div>
+                <div class="olvido_contraseña"><a href="nueva_contraseña.php">¿Olvido su contraseña?</a></div>
                 <input type="submit" value="Iniciar sesion" name="inicio_sesion" onclick="validarInicio()">
 
                 <div class="registrarse">

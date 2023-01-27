@@ -86,6 +86,7 @@ body {
     width: 400px;
     background: #121619;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -127,28 +128,6 @@ form .usuario {
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
-}
-
-.usuario span::before {
-    content: "";
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #1f53c5;
-    transition: .5s;
-}
-
-.usuario input:focus ~ label,
-.usuario input:focus ~ label {
-    top: -5px;
-    color: #1f53c5;
-}
-
-.usuario input:focus ~ span::before,
-.usuario input:focus ~ span::before {
-    width: 100%;
 }
 
 input[type="submit"] {

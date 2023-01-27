@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+        <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+        <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+        -->
         <title>Parador 5 - Torneo de fútbol</title>
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="icon" href="img/pelota.png">
@@ -28,15 +32,19 @@
         <h2>TORNEOS DE FUTBOL</h2>
         
         <div id="torneos">
-            <div id="FutbolM">
-                <a href="InscripcionFM5.php"><img src="img/fm5.jpg" id="fm5img" class="img_torneos" alt="Cargando futbol 5 Masculino"></a>
-                <a href="InscripcionFM8.php"><img src="img/fm8.jpg" id="fm8img" class="img_torneos" alt="Cargando futbol 8 Masculino"></a>
-            </div>
-            <div id="FutbolF">
-                <a href="InscripcionFF5.php"><img src="img/ff5.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 5 Femenino"></a>
-                <a href="InscripcionFF8.php"><img src="img/ff8.jpg" id="ff5img" class="img_torneos" alt="Cargando futbol 8 Femenino"></a>
-        
-            </div>
+            <?php
+            include("index_sql.php");
+            torneos_activos();
+            include("chequear_rol.php");
+            $id_rol = chequear_rol();
+            if($id_rol == 2){
+                ?>
+                <div>
+                    <a href="InscripcionNT.php"> <img src="img/crear torneo.png" alt="" id="crear_torneo_img" class="img_torneos"> </a> 
+                </div>
+                <?php 
+            } 
+            ?>
 
         </div>
         <footer id="footer">

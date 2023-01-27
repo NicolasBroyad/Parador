@@ -189,6 +189,22 @@ h2 {
 
 }
 
+#titulo_torneo_NI_txt {
+    background-color: #09814A;
+    padding: 15px;
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    color: #121619;
+    text-align: center;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    transform: translate(0,-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+
+}
+
 #total_partidos_txt {
     color: #BCB382;
     position: absolute;
@@ -271,6 +287,38 @@ button:hover {
     color: white;
     border: 2px solid white;
     transition: .5s;
+}
+
+#participantes_div {
+    padding-bottom: 25vh;
+    color: #2D4739;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: fit-content;
+    width: 68%;
+}
+
+#integrantes {
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    padding: 2vh;
+    position: relative;
+    left: 50%;
+    top: 20vh;
+    transform: translate(-50%,-50%);
+    background-color: #121619;
+    width: 50%;
+    height: fit-content;
+}
+
+.participantes {
+    padding: 2vh;
+    color: #09814A;
+    font-family: fantasy;
+    font-size: 2.4vh;
+    border-bottom: 1px solid #09814A;
 }
 
 #mis_partidos_div {

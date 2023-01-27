@@ -213,7 +213,7 @@ body {
     font-size: 1.3vw;
 }
 
-button {
+#button {
     border-style: none;
     position: absolute;
     left: 50%;
@@ -230,7 +230,7 @@ button {
     outline: none;
 }
 
-button:hover {
+#button:hover {
     border-color: #2D4739;
     transition: .5s;
 }

@@ -8,7 +8,7 @@
                 <a href="mi_cuenta.php"><img src="img/perfil.png" id="perfil" alt=""></a>
                 <a id="iniciar_sesion">
                     <?php 
-                        echo($_SESSION["correo"]); 
+                        echo($_SESSION["nombre"]." ".$_SESSION['apellido']); 
                     ?>
                 </a>
 

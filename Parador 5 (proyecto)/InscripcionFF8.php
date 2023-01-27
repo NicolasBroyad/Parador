@@ -17,14 +17,17 @@
 
         <div id="body">
             <h2 id="titulo"> TORNEO DE FÚTBOL 8 (Femenino)</h2>
-            <div id="all_divs">
+            <form method="post" id="all_divs">
                 <div id="info" class="divs"> 
                     <h4 id="informacion_titulo"> INFORMACION </h4>
                     <span id="num_jugadores"> 8 </span> <img id="jugadores" src="img/jugadores.png" alt=""> <span id="txt_jugadores"> Jugadores en cancha </span>
                     <span id="num_suplentes"> 3 </span> <img id="suplentes" src="img/suplentes.png" alt=""> <span id="txt_suplentes"> Jugadores suplentes (Máximo) </span>
                     <span id="num_precio">7000</span><img id="precio" src="img/precio.png" alt=""><span id="txt_precio"> Total por partido </span>
                     <span id="num_partidos"> 4 </span> <img id="partidos" src="img/partidos.png" alt=""> <span id="txt_partidos"> Partidos (Máximo), eliminacion directa</span>
-                    <a href="datos_equipo_FF8.html"> <button type="submit" value="Iniciar"> Inscribirse </button></a>
+                    <?php
+                    include("chequear_sesion_inscripcion_FF8.php");
+                    chequear_sesion_inscripcion_FF8();
+                    ?>
                 </div>
                 <div id="cuando" class="divs">
                     <h4 id="cuando_titulo"> ¿CUANDO SE JUEGA? </h4>
@@ -42,7 +45,7 @@
                     <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.593885198084!2d-58.58431028417407!3d-34.63970176691112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc78be1a39179%3A0xddb74c322d2a348e!2sParador%204!5e0!3m2!1ses-419!2sar!4v1663812585469!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             
-        </div>
+            </form>
         <footer id="footer">
             <p>Copyright 2022</p>
             <p><a href=”#”>Ley de Cookies</a></p> <br>

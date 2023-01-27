@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
         <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-        <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT"> 
+        <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+        --> 
         <title>Parador 5 - Torneo de fútbol</title>
         <link rel="stylesheet" type="text/css" href="mi_cuenta_admin.css">
         <link rel="icon" href="img/pelota.png">
@@ -29,11 +31,18 @@
             <div id="mis_inscripciones_div">
                 <h2>MIS INSCRIPCIONES</h2>
                 <div id="inscripcion">
-                    <img src="img/inscripcion.png" alt="" id="mis_inscripciones_img">
                     <?php
                         datos_inscripcion();
                     ?>
-                    <a href=""> <button type="submit" value="Iniciar">Editar equipo </button></a>
+                </div>
+            </div>
+
+            <div id="participantes_div">
+                <h2> Integrantes </h2>
+                <div id="integrantes"> 
+                    <?php
+                        participantes();
+                    ?>
                 </div>
             </div>
 
@@ -47,40 +56,6 @@
                     <p id="fecha_5" class="fechas"> Fecha 5 </p>
                 </div>
             </div>
-
-            <div id="fixture_div">
-                <img  id="fixture_img" src="fixture.png" alt="">
-                <h2>FIXTURE</h2>
-                <div id="fixture">
-                    <div id="final_div" class="series" >
-                         <p> FINAL </p class="series_txt">  
-                    </div>
-
-                    <div id="semis_div" class="fases">
-                        <div id="semi_1_div" class="series">
-                            <p class="series_txt">Semi 1</p>
-                        </div>
-                        <div id="semi_2_div" class="series">
-                             <p class="series_txt">Semi 2</p>
-                        </div>
-                    </div>
-                
-                    <div id="cuartos_div" class="fases">
-                        <div id="cuartos_1_div" class="series" >
-                             <p class="series_txt">Cuartos 1</p>
-                        </div>
-                        <div id="cuartos_2_div" class="series">
-                             <p class="series_txt">Cuartos 2</p>
-                        </div>
-                        <div id="cuartos_3_div" class="series">
-                             <p class="series_txt">Cuartos 3</p>
-                        </div>
-                        <div id="cuartos_4_div" class="series">
-                             <p class="series_txt">Cuartos 4</p>
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
         </div>

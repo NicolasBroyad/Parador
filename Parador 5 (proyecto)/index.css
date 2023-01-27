@@ -205,7 +205,7 @@ p {
 }
 
 #torneos {
-    margin: 10px;
+    margin: 10px 10px;
     text-align: center;
     display: inline-block; 
     position: relative;
@@ -219,40 +219,20 @@ p {
 
 .img_torneos {
     margin: 100px; 
-}
-
-#fm5img {
     max-width: 25%;
 }
 
-#fm5img:hover {
+.img_torneos:hover {
     transition: 300ms;
     transform: scale(1.08);
 }
 
-#fm8img {
+
+#crear_torneo_img {
     max-width: 25%;
 }
 
-#fm8img:hover {
-    transition: 300ms;
-    transform: scale(1.08);
-}
-
-#ff5img {
-    max-width: 25%;
-}
-
-#ff5img:hover {
-    transition: 300ms;
-    transform: scale(1.08);
-}
-
-#ff8img {
-    max-width: 25%;
-}
-
-#ff8img:hover {
+#crear_torneo_img:hover {
     transition: 300ms;
     transform: scale(1.08);
 }

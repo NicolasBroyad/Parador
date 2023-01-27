@@ -19,23 +19,19 @@
 
             <form method="post">
                 <div class="usuario">
-                    <input type="text" name="nombre" id="nombre">
-                    <label>Ingrese su nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
                 </div>
 
                 <div class="usuario">
-                    <input type="text" name="apellido" id="apellido">
-                    <label>Ingrese su apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
                 </div>
 
                 <div class="usuario">
-                    <input type="email" name="email" id="email">
-                    <label>Ingrese su correo</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo">
                 </div>
 
                 <div class="usuario">
-                    <input type="password" name="contra" id="contra">
-                    <label>Ingrese su contraseña</label>
+                    <input type="password" name="contra" id="contra" placeholder="Ingrese su contraseña">
                 </div>
 
                 <input type="submit" value="Registrarme" name="registro" onclick="validarRegistro()">

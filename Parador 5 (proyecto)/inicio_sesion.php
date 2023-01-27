@@ -17,14 +17,20 @@
                     $_SESSION['correo'] = $correo;
                     $usuario = mysqli_fetch_row($resultado); 
                     $id_usuario = $usuario[0];
+                    $nombre = $usuario[1];
+                    $apellido = $usuario[2];
+                    $id_rol = $usuario[5];
                     $_SESSION['id_usuario'] = $id_usuario;
+                    $_SESSION['nombre'] = $nombre;
+                    $_SESSION['apellido'] = $apellido;
+                    $_SESSION['id_rol'] = $id_rol;
                     header("location:index.php");
-                    ?>*
+                    ?>
                     <h3 style="text-align: center; color: green;">Iniciaste sesion correctamente</h3>
                     <?php
                 } else {
                     ?> 
-                    <h3 style="text-align: center; color: red;">El usuario ingresado no existe </h3>
+                    <h3 style="text-align: center; color: red;">El usuario ingresado no existe o la contraseña es incorrecta </h3>
                     <?php
                 }
 

@@ -17,7 +17,7 @@
 
         <div id="body">
             <h2 id="titulo"> TORNEO DE FÚTBOL 5 (Masculino)</h2>
-            <div id="all_divs">
+            <form method="post" id="all_divs">
                 <div id="info" class="divs"> 
                     <h4 id="informacion_titulo"> INFORMACION </h4>
                     <span id="num_jugadores"> 5 </span> <img id="jugadores" src="img/jugadores.png" alt=""> <span id="txt_jugadores"> Jugadores en cancha </span>
@@ -25,8 +25,8 @@
                     <span id="num_precio">5000</span><img id="precio" src="img/precio.png" alt=""><span id="txt_precio"> Total por partido </span>
                     <span id="num_partidos"> 4 </span> <img id="partidos" src="img/partidos.png" alt=""> <span id="txt_partidos"> Partidos (Máximo), eliminacion directa</span>
                     <?php
-                    include("chequear_sesion_inscripcion.php");
-                    chequear_sesion_inscripcion();
+                    include("chequear_sesion_inscripcion_FM5.php");
+                    chequear_sesion_inscripcion_FM5();
                     ?>
                 </div>
                 <div id="cuando" class="divs">
