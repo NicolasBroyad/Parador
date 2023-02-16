@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
+}
+
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
+#perfil {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+
+}
+
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
+
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+#body {
+    padding: 0;
+    background-image: url('img/registro2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 130vh;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+#titulo {   
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #121619;
+}
+
+#all_divs{
+    height: 80%;
+    width: 90%;
+    position: relative;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.divs { 
+    box-shadow: 20px 20px 30px;
+    position: absolute;
+    background-color: #BCB382;
+
+}
+
+#info.divs {
+    border-radius: 50px;
+    height: 38.5%;
+    width: 46%;
+}
+
+#informacion_titulo {
+    padding: 2%;
+    text-align: center;
+    font-size: 1.4vw;
+    color: #2D4739;
+}
+
+#num_jugadores {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    color: #2D4739;
+    font-size: 1.7vw;
+}
+
+#jugadores {
+    position: absolute;
+    top: 22%;
+    left: 26%;
+    height: 1.2vw;
+}
+
+#txt_jugadores {
+    position: absolute;
+    top: 21.5%;
+    left: 36%;
+    color: #2D4739;
+    font-size: 1.3vw;
+}
+
+#num_suplentes {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    color: #2D4739;
+    font-size: 1.7vw;
+}
+
+#suplentes {
+    position: absolute;
+    top: 37%;
+    left: 26%;
+    height: 1.3vw;
+}
+
+#txt_suplentes {
+    position: absolute;
+    top: 37%;
+    left: 36%;
+    color: #2D4739;
+    font-size: 1.3vw;
+}
+
+#num_precio{
+    position: absolute;
+    top: 51%;
+    left: 32%;
+    color: #2D4739;
+    font-size: 1.7vw;
+}
+
+#precio {
+    position: absolute;
+    top: 52%;
+    left: 25.5%;
+    height: 1.5vw;
+}
+
+#txt_precio {
+    position: absolute;
+    top: 52.5%;
+    left: 42%;
+    color: #2D4739;
+    font-size: 1.3vw;
+}
+
+#num_partidos {
+    position: absolute;
+    top: 66%;
+    left: 32%;
+    color: #2D4739;
+    font-size: 1.7vw;
+}
+
+
+#partidos {
+    position: absolute;
+    top: 66%;
+    left: 25.5%;
+    height: 1.5vw;
+}
+
+#txt_partidos {
+    position: absolute;
+    top: 68%;
+    left: 36%;
+    color: #2D4739;
+    font-size: 1.3vw;
+}
+
+#inscribirse {
+    border-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: -2%;
+    transform: translate(-50%,-50%);
+    width: 38%;
+    height: 14%;
+    border: 1px solid;
+    background: #09814A;
+    border-radius: 25px;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#inscribirse:hover {
+    border-color: #2D4739;
+    transition: .5s;
+}
+
+
+#cuando.divs {
+    border-radius: 50px;
+    height: 38.5%;
+    width: 46%;
+    right: 0;
+}
+
+#cuando_titulo {
+    padding: 2%;
+    text-align: center;
+    font-size: 1.4vw;
+    color: #2D4739;
+}
+
+#dia {
+    position: absolute;
+    top: 22%;
+    left: 14%;
+    height: 1.3vw;
+}
+
+#txt_dia {
+    position: absolute;
+    top: 21.5%;
+    left: 22%;
+    color: #2D4739;
+    font-size: 1.2vw;
+}
+
+#horario {
+    position: absolute;
+    top: 37%;
+    left: 14%;
+    height: 1.3vw;
+}
+
+#txt_horario {
+    position: absolute;
+    top: 37%;
+    left: 22%;
+    color: #2D4739;
+    font-size: 1.3vw;
+}
+
+#editar_fixture {
+    border-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 24%;
+    transform: translate(-50%,-50%);
+    width: 38%;
+    height: 14%;
+    border: 1px solid;
+    background: #09814A;
+    border-radius: 25px;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#editar_fixture:hover{
+    border-color: #2D4739;
+    transition: .5s;
+}
+
+#cargar_resultados {
+    border-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: -2%;
+    transform: translate(-50%,-50%);
+    width: 38%;
+    height: 14%;
+    border: 1px solid;
+    background: #09814A;
+    border-radius: 25px;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#cargar_resultados:hover{
+    border-color: #2D4739;
+    transition: .5s;
+}
+
+#donde.divs {
+    border-radius: 50px;
+    height: 35%;
+    width: 100%;
+    bottom: 22%;
+}
+
+#donde_titulo {
+    padding: 2% 17%;
+    font-size: 1.3vw;
+    color: #2D4739;
+}
+
+#ubi {
+    position: absolute;
+    left: 10%;
+    height: 2.4vw;
+}
+
+#ubi_txt {
+    position: absolute;
+    font-size: 1.2vw;
+    color: #2D4739;
+    top: 31%;
+    left: 14%;
+}
+
+#canchita {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 2.4vw;
+}
+
+#canchita_txt {
+    position: absolute;
+    font-size: 1.3vw;
+    color: #2D4739;
+    top: 53%;
+    left: 14%;
+}
+
+#tierra_santa {
+    position: absolute;
+    color: #2D4739;
+    top: 72%;
+    left: 10%;
+    height: 2.4vw;
+}
+
+#tierra_santa_txt {
+    position: absolute;
+    font-size: 1.2vw;
+    color: #2D4739;
+    top: 74%;
+    left: 14%;
+}
+
+#mapa {
+    border-radius: 10%;
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    height: 80%;
+    width: 40%;
+}
+
+/* ---------------------------------------ACA COMIENZA EL FOOTER--------------------------------------------------------------------------------*/
+
+#footer {
+    background-color: #2D4739;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}#saul {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+    

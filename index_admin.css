@@ -1,0 +1,305 @@
+/*INDEX ADMIN*/
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
+}
+
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
+#perfil {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+
+}
+
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
+#undernav {
+    position: relative;
+    background-color: #121619;
+}
+
+
+#principal {
+    width: 100%;   
+}
+
+#torneos_de_futbol_beige {
+    position: absolute;
+    height: 13%;
+    top: 15%;
+    left: 3.3%;
+}
+
+#torneos_de_futbol_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#masculino_beige {
+    position: absolute;
+    height: 11.6%;
+    top: 34.5%;
+    left: 6.4%;
+
+}
+
+#masculino_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#femenino_beige {
+    position: absolute;
+    height: 11.6%;
+    top: 49%;
+    left: 7.2%;
+}
+
+#femenino_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#futbol_5_beige {
+    position: absolute;
+    height: 9%;
+    top: 70%;
+    left: 9%;
+}
+
+#futbol_5_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05);
+}
+
+#futbol_8_beige {
+    position: absolute;
+    height: 8.6%;
+    top: 81.5%;
+    left: 9.1%;
+}
+
+#futbol_8_beige:hover {
+    transition: 300ms;
+    transform: scale(1.05); 
+}
+
+#ver_torneos_div {
+    position: relative;
+    top: auto;
+    height: 160px;
+    width: 100%;
+    background-color: #121619;
+    z-index: 10;
+}
+
+#ver_torneos_texto {
+    font-size: 25px;
+    position: absolute;
+    top: 28%;   
+    left: 49.5%;
+    color: #BCB382;
+    transform: translate(-50%,-50%);
+    
+}
+
+#flecha {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80px;
+    scroll-behavior: smooth;
+}
+
+#flecha:hover {
+    transition: 300ms;
+    transform: scale(1.02) translate(-50%,-50%);
+
+}
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+
+body {
+    height: 2000px;
+    background-color: #E5C687;
+    color: #2D4739;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+h2 {
+    text-align: center; 
+    padding: 60px;
+}
+
+p {
+    padding: 10px;
+    font-style: italic;
+}
+
+#torneos {
+    margin-bottom: 50px;
+    text-align: center;
+    display: inline-block; 
+    position: relative;
+    top: 35%;
+    left: 50%;
+    height: fit-content;
+    max-width: 120vh;
+    transform: translate(-50%,-50%);
+    background-color: #E5C687;
+}
+
+.img_torneos {
+    margin: 100px; 
+}
+
+#fm5img {
+    max-width: 25%;
+}
+
+#fm5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#fm8img {
+    max-width: 25%;
+}
+
+#fm8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff5img {
+    max-width: 25%;
+}
+
+#ff5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff8img {
+    max-width: 25%;
+}
+
+#ff8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#crear_torneo_img {
+    max-width: 25%;
+}
+
+#crear_torneo_img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#crear_torneo {
+    margin: 100px;
+    position: relative;
+    display: inline-block;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+input {
+    border: 0ch;
+    margin-left: 10px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.crear_equipo{
+    position: relative;
+    top: 50px;
+    left: -140px;
+}
+
+img.crear_equipo {
+    height: 50px;
+    position: relative;
+    left: -80px;
+    top: 70px;
+}
+
+/*------------------------FOOTER-----------------------------------------*/
+
+#footer {
+    background-color: #2D4739;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
+}

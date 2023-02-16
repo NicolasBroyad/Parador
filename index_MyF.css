@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
+}
+
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
+#perfil {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+
+}
+
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
+
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+
+#body {
+    position: relative;
+    height: 1350px;
+    background-color: #E5C687;
+    color: #2D4739;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+h2 {
+    text-align: center; 
+    padding: 60px;
+}
+
+p {
+    padding: 10px;
+    font-style: italic;
+}
+
+#torneos {
+    display: inline-block; 
+    position: relative;
+    top: 22%;
+    left: 50%;
+    height: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+    background-color: #E5C687;
+}
+
+.cajas {
+    margin: 100px;
+    position: relative;
+    display: inline-block;
+    background-color: #121619;
+    height: 400px;
+    width: 400px;
+}
+
+.cajas:hover {
+    box-shadow: 80px 80px 80px #121619;
+    transition: 300ms;
+}
+
+#fm5img {
+    height: 450px;
+}
+
+#fm5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#fm8img {
+    height: 450px;
+}
+
+#fm8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff5img {
+    height: 450px;
+}
+
+#ff5img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+#ff8img {
+    height: 450px;
+}
+
+#ff8img:hover {
+    transition: 300ms;
+    transform: scale(1.08);
+}
+
+input {
+    border: 0ch;
+    margin-left: 10px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.crear_equipo{
+    position: relative;
+    top: 50px;
+    left: -140px;
+}
+
+img.crear_equipo {
+    height: 50px;
+    position: relative;
+    left: -80px;
+    top: 70px;
+}
+
+/*------------------------FOOTER-----------------------------------------*/
+
+#footer {
+    background-color: #2D4739;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
+}

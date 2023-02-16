@@ -1,0 +1,330 @@
+/*MI CUENTA*/
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121619;
+    height: 70px;
+    z-index: 100;
+}
+
+#logo_p5 {
+    height: 37px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+
+}
+
+#Parador5 {
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    color: #BCB382;
+    font-style: verdana;
+}
+
+#modo_admin {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    background-color: #BCB382;
+    color: #121619;
+    font-size: 2vh;
+    padding: 0.2vh;
+}
+
+#perfil {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+
+}
+
+#iniciar_sesion {   
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 32%;
+    right: 5.6%;
+    color: #BCB382 ;
+}
+
+
+#undernav {
+    position: relative;
+    background-color: #121619;
+}
+
+
+#principal {
+    width: 100%;   
+}
+
+/*----------------------------ACA EMPIEZA EL UNDERNAV DE ESTA PAGINA---------------------------------------------------------*/
+
+#mi_cuenta {
+    position: sticky;
+    top: -9.9%;
+    height: 30vh;
+    width: 100%;
+    background-color: #121619;
+    z-index: 10;
+}
+
+#mi_cuenta_img {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+#mi_cuenta_txt {
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    color: #BCB382;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+/* ---------------------------------------ACA TERMINA EL NAV--------------------------------------------------------------------------------*/
+
+#body {
+    padding: 8vh;
+    position: relative;
+    height: fit-content;
+    background-color: #E5C687;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    
+}
+
+/*------------------------------------------HASTA ACA PARA TODOS IGUAL-----------------------------------------------------------------------*/
+
+h2 {
+    font-size: 3vh;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-align: center; 
+    padding: 60px;
+}
+
+#mis_inscripciones_div {
+    color: #2D4739;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: fit-content;
+    width: 68%;
+}
+
+#inscripcion {
+    margin-bottom: 12vh;
+    border: 2px solid #09814A;
+    border-radius: 6vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: #121619;
+    height: 8vh;
+    width: 45%;
+}
+
+#mis_inscripciones_img {
+    position: absolute;
+    height: 3.2vh;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+}
+
+#mis_inscripciones_txt {
+    color: #09814A;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: fantasy;
+    font-size: 2.7vh;
+
+}
+
+#editar_inscripcion {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    right: 9%;
+    height: 3.2vh;
+}
+
+#mis_partidos_div {
+    padding-bottom: 12vh;
+    color: #2D4739;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: fit-content;
+    width: 68%;
+}
+
+#partidos {
+    border: 2px solid #09814A;
+    border-radius: 50px;
+    padding: 2vh;
+    position: relative;
+    left: 50%;
+    top: 20vh;
+    transform: translate(-50%,-50%);
+    background-color: #121619;
+    width: 50%;
+    height: fit-content;
+}
+
+.fechasF {
+    padding: 2vh;
+    color: #09814A;
+    font-family: fantasy;
+    font-size: 2.4vh;
+}
+
+.fechasR {
+    padding: 2vh;
+    color: #09814A;
+    font-family: fantasy;
+    font-size: 2.4vh;
+    border-bottom: 1px solid #09814A;
+}
+
+#fixture_div {
+    color: #2D4739;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 4px solid #121619;
+    height: 120vh;
+    width: 68%;;
+}
+
+#fixture {
+    text-align: center;
+    border-radius: 50px;
+    padding: 2vh;
+    position: relative;
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%,-50%);
+    background-color: #121619;
+    width: 50%;
+    height: fit-content;
+}
+
+.fases {
+    padding: 5vh;
+}
+
+.series {
+    margin: 1vh;
+    height: 5vh;
+    border-radius: 25px;
+
+}
+
+.series_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#final_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+}
+
+#semi_1_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#semi_2_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_1_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_2_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_3_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#cuartos_4_div {
+    background-color: #09814A;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+/*------------------------FOOTER-----------------------------------------*/
+
+#footer {
+    background-color: #2D4739;
+    height: 300px;
+    color: white;   
+    padding: 10px;
+}
+
+.redes {
+    max-width: 20px;
+    max-height: 15px; 
+}
+
+#saul {
+    max-width: 40px;
+    max-height: 40px;
+}
